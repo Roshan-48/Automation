@@ -49,6 +49,7 @@ public class AbsoluteXpath {
 		driver.findElement(By.xpath("/html/body/div[4]/div/div[2]/ul/li[7]/a")).click();
 		Thread.sleep(2000);
 		
-		driver.close();
+		driver.close();	
+	
 	}
 }

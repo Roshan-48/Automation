@@ -19,6 +19,7 @@ public class CssSelectorLocator {
 		Thread.sleep(1000);
 		
 //		driver.findElement(By.cssSelector("input[value='Search']")).click();
+		
 		driver.findElement(By.cssSelector(".button-1.search-box-button")).click();
 		
 		Thread.sleep(3000);
