@@ -21,7 +21,7 @@ public class Login {
 	@FindBy(xpath = "//button[@type='submit']")
 	private WebElement login_button;
 	
-	@FindBy(xpath = "//p[text()='Forgot your password?']")
+	@FindBy(xpath = "//div[contains(@class,'orangehrm-login-forgot')]//p")
 	private WebElement forgot_password;
 	
 	@FindBy(xpath = "(//div[contains(@class,'orangehrm-login-footer-sm')]//a)[1]")
@@ -38,6 +38,19 @@ public class Login {
 	
 	@FindBy(xpath = "//a[text()='OrangeHRM, Inc']")
 	private WebElement footer_text;
+	
+	@FindBy(xpath = "//p[contains(@class,'oxd-alert-content-text')]")
+	private WebElement errorMsg;
+	
+	@FindBy(xpath = "//span[text()='Required']")
+	private WebElement requiredError;
+	
+	@FindBy(xpath = "(//span[text()='Required'])[1]")
+	private WebElement usernameRequiredError;
+
+	@FindBy(xpath = "(//span[text()='Required'])[2]")
+	private WebElement passwordRequiredError;
+
 	
 	public Login(WebDriver driver) {
 		PageFactory.initElements(driver, this);
@@ -68,34 +81,67 @@ public class Login {
 	public void getLogin_button() {
 		login_button.click();
 	}
+	public WebElement getLoginButton() {
+	    return login_button;
+	}
 
 	public void getForgot_password() {
 		forgot_password.click();
 	}
+	public WebElement gerForgot_password() {
+		return forgot_password;
+	}
 	
-	public void getLinkedin_icon() { 
+	public void clickLinkedin_icon() { 
 		linkedin_icon.click(); 
 	}
+	public WebElement getLinkedinicon() {
+		return linkedin_icon;
+	}
 	
-	public void getFacebook_icon() { 
+	public void clickFacebook_icon() { 
 		facebook_icon.click(); 
 	}
+	public WebElement getFacebook_icon() {
+		return facebook_icon;
+	}
 	
-	public void getTwitter_icon() { 
+	public void clickTwitter_icon() { 
 		twitter_icon.click();
 	}
-	
-	public void getYoutube_icon() { 
-		youtube_icon.click(); 
+	public WebElement getTwitter_icon() {
+		return twitter_icon;
 	}
 	
-	public String getFooter_text() {
+	public void clickYoutube_icon() { 
+		youtube_icon.click(); 
+	}
+	public WebElement getYoutube_icon() {
+		return youtube_icon;
+	}
+	
+	public void clickFooter_text() {
 		footer_text.click();
+	}	
+	
+	public String getFooter_text() {
 		return footer_text.getText();
 	}
 
 	public WebElement getErrorMsg() {
-		return null;
+	    return errorMsg;
+	}
+	
+	public WebElement getRequiredError() {
+	    return requiredError;
+	}
+
+	public WebElement getUsernameRequiredError() {
+	    return usernameRequiredError;
+	}
+
+	public WebElement getPasswordRequiredError() {
+	    return passwordRequiredError;
 	}
 }
 

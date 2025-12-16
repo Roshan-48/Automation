@@ -1,134 +1,459 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="23" passed="8" failed="14" skipped="1">
+<testng-results ignored="0" total="26" passed="23" failed="0" skipped="3">
   <reporter-output>
     <line>
       <![CDATA[onStart]]>
     </line>
     <line>
-      <![CDATA[tc_001 is onTestStart]]>
+      <![CDATA[tc_001_verifyLoginPage is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_002 is onTestStart]]>
+      <![CDATA[tc_002_verifyUsernamePlaceholder is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_003 is onTestStart]]>
+      <![CDATA[tc_003_verifyPasswordPlaceholder is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_004 is onTestStart]]>
+      <![CDATA[tc_004_verifyUsernamePlaceholder is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_004 is onTestStart]]>
+      <![CDATA[tc_005_verifyPasswordPlaceholder is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_004 is onTestStart]]>
+      <![CDATA[tc_006_verifyLoginButtonEnabled is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_004 is onTestStart]]>
+      <![CDATA[tc_007_verifyForgotPasswordLink is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_004 is onTestStart]]>
+      <![CDATA[tc_008_validateLoginBehavior is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_004 is onTestStart]]>
+      <![CDATA[tc_008_validateLoginBehavior is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_004 is onTestStart]]>
+      <![CDATA[tc_008_validateLoginBehavior is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_004 is onTestStart]]>
+      <![CDATA[tc_008_validateLoginBehavior is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_004 is onTestStart]]>
+      <![CDATA[tc_008_validateLoginBehavior is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_004 is onTestStart]]>
+      <![CDATA[tc_008_validateLoginBehavior is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_005 is onTestStart]]>
+      <![CDATA[tc_008_validateLoginBehavior is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_005 is onTestStart]]>
+      <![CDATA[tc_008_validateLoginBehavior is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_005 is onTestStart]]>
+      <![CDATA[tc_009_verifyErrorMessageText is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_005 is onTestStart]]>
+      <![CDATA[tc_009_verifyErrorMessageText is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_005 is onTestStart]]>
+      <![CDATA[tc_009_verifyErrorMessageText is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_005 is onTestStart]]>
+      <![CDATA[tc_009_verifyErrorMessageText is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_005 is onTestStart]]>
+      <![CDATA[tc_009_verifyErrorMessageText is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_005 is onTestStart]]>
+      <![CDATA[tc_009_verifyErrorMessageText is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_005 is onTestStart]]>
+      <![CDATA[tc_009_verifyErrorMessageText is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_005 is onTestStart]]>
+      <![CDATA[tc_009_verifyErrorMessageText is onTestStart]]>
+    </line>
+    <line>
+      <![CDATA[tc_010_verifyErrorForEmptyCredentials is onTestStart]]>
+    </line>
+    <line>
+      <![CDATA[tc_011_verifySocialIconsDisplayed is onTestStart]]>
+    </line>
+    <line>
+      <![CDATA[tc_012_verifyFooterText is onTestStart]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-12-16T23:01:23 IST" name="Default suite" finished-at="2025-12-16T23:04:16 IST" duration-ms="173221">
+  <suite started-at="2025-12-17T02:47:54 IST" name="Default suite" finished-at="2025-12-17T02:50:49 IST" duration-ms="175088">
     <groups>
     </groups>
-    <test started-at="2025-12-16T23:01:23 IST" name="Default test" finished-at="2025-12-16T23:04:16 IST" duration-ms="173221">
+    <test started-at="2025-12-17T02:47:54 IST" name="Default test" finished-at="2025-12-17T02:50:49 IST" duration-ms="175088">
       <class name="functionalTesting.LoginTest">
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:01:23 IST" name="precondition" finished-at="2025-12-16T23:01:31 IST" duration-ms="7668" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:47:54 IST" name="precondition" finished-at="2025-12-17T02:48:00 IST" duration-ms="5312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_001()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:01:31 IST" name="tc_001" finished-at="2025-12-16T23:01:34 IST" duration-ms="2732" status="PASS">
+        <test-method signature="tc_001_verifyLoginPage()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:00 IST" name="tc_001_verifyLoginPage" finished-at="2025-12-17T02:48:00 IST" duration-ms="592" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[tc_001 is onTestStart]]>
+              <![CDATA[tc_001_verifyLoginPage is onTestStart]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc_001 -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:01:34 IST" name="postcondition" finished-at="2025-12-16T23:01:34 IST" duration-ms="227" status="PASS">
+        </test-method> <!-- tc_001_verifyLoginPage -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:00 IST" name="postcondition" finished-at="2025-12-17T02:48:00 IST" duration-ms="193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:01:34 IST" name="precondition" finished-at="2025-12-16T23:01:42 IST" duration-ms="7537" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:00 IST" name="precondition" finished-at="2025-12-17T02:48:06 IST" duration-ms="5511" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_002()[pri:1, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:01:42 IST" name="tc_002" finished-at="2025-12-16T23:01:43 IST" duration-ms="1256" status="PASS">
+        <test-method signature="tc_002_verifyUsernamePlaceholder()[pri:1, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:06 IST" name="tc_002_verifyUsernamePlaceholder" finished-at="2025-12-17T02:48:06 IST" duration-ms="559" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[tc_002 is onTestStart]]>
+              <![CDATA[tc_002_verifyUsernamePlaceholder is onTestStart]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc_002 -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:01:43 IST" name="postcondition" finished-at="2025-12-16T23:01:43 IST" duration-ms="182" status="PASS">
+        </test-method> <!-- tc_002_verifyUsernamePlaceholder -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:06 IST" name="postcondition" finished-at="2025-12-17T02:48:07 IST" duration-ms="180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:01:43 IST" name="precondition" finished-at="2025-12-16T23:01:48 IST" duration-ms="5255" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:07 IST" name="precondition" finished-at="2025-12-17T02:48:11 IST" duration-ms="4347" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_003()[pri:2, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:01:48 IST" name="tc_003" finished-at="2025-12-16T23:01:49 IST" duration-ms="801" status="PASS">
+        <test-method signature="tc_003_verifyPasswordPlaceholder()[pri:2, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:11 IST" name="tc_003_verifyPasswordPlaceholder" finished-at="2025-12-17T02:48:12 IST" duration-ms="677" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[tc_003 is onTestStart]]>
+              <![CDATA[tc_003_verifyPasswordPlaceholder is onTestStart]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc_003 -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:01:49 IST" name="postcondition" finished-at="2025-12-16T23:01:49 IST" duration-ms="213" status="PASS">
+        </test-method> <!-- tc_003_verifyPasswordPlaceholder -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:12 IST" name="postcondition" finished-at="2025-12-17T02:48:12 IST" duration-ms="193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:01:50 IST" name="precondition" finished-at="2025-12-16T23:01:56 IST" duration-ms="5522" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:12 IST" name="precondition" finished-at="2025-12-17T02:48:17 IST" duration-ms="4732" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_004(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:01:56 IST" name="tc_004" data-provider="loginData" finished-at="2025-12-16T23:01:56 IST" duration-ms="4" status="SKIP">
+        <test-method signature="tc_004_verifyUsernamePlaceholder()[pri:3, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:17 IST" name="tc_004_verifyUsernamePlaceholder" finished-at="2025-12-17T02:48:19 IST" duration-ms="2861" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tc_004_verifyUsernamePlaceholder is onTestStart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_004_verifyUsernamePlaceholder -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:19 IST" name="postcondition" finished-at="2025-12-17T02:48:20 IST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:20 IST" name="precondition" finished-at="2025-12-17T02:48:24 IST" duration-ms="4678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="tc_005_verifyPasswordPlaceholder()[pri:4, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:24 IST" name="tc_005_verifyPasswordPlaceholder" finished-at="2025-12-17T02:48:25 IST" duration-ms="756" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tc_005_verifyPasswordPlaceholder is onTestStart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_005_verifyPasswordPlaceholder -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:25 IST" name="postcondition" finished-at="2025-12-17T02:48:25 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:25 IST" name="precondition" finished-at="2025-12-17T02:48:30 IST" duration-ms="5125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="tc_006_verifyLoginButtonEnabled()[pri:5, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:30 IST" name="tc_006_verifyLoginButtonEnabled" finished-at="2025-12-17T02:48:31 IST" duration-ms="547" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tc_006_verifyLoginButtonEnabled is onTestStart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_006_verifyLoginButtonEnabled -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:31 IST" name="postcondition" finished-at="2025-12-17T02:48:31 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:31 IST" name="precondition" finished-at="2025-12-17T02:48:36 IST" duration-ms="4771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="tc_007_verifyForgotPasswordLink()[pri:6, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:36 IST" name="tc_007_verifyForgotPasswordLink" finished-at="2025-12-17T02:48:37 IST" duration-ms="1128" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tc_007_verifyForgotPasswordLink is onTestStart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_007_verifyForgotPasswordLink -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:37 IST" name="postcondition" finished-at="2025-12-17T02:48:37 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:38 IST" name="precondition" finished-at="2025-12-17T02:48:43 IST" duration-ms="4797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="tc_008_validateLoginBehavior(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:43 IST" name="tc_008_validateLoginBehavior" data-provider="loginData" finished-at="2025-12-17T02:48:46 IST" duration-ms="2648" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[tc_008_validateLoginBehavior is onTestStart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_008_validateLoginBehavior -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:46 IST" name="postcondition" finished-at="2025-12-17T02:48:46 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:46 IST" name="precondition" finished-at="2025-12-17T02:48:51 IST" duration-ms="4934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="tc_008_validateLoginBehavior(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:51 IST" name="tc_008_validateLoginBehavior" data-provider="loginData" finished-at="2025-12-17T02:48:54 IST" duration-ms="2939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[tc_008_validateLoginBehavior is onTestStart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_008_validateLoginBehavior -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:54 IST" name="postcondition" finished-at="2025-12-17T02:48:54 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:54 IST" name="precondition" finished-at="2025-12-17T02:48:59 IST" duration-ms="4890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="tc_008_validateLoginBehavior(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:59 IST" name="tc_008_validateLoginBehavior" data-provider="loginData" finished-at="2025-12-17T02:49:01 IST" duration-ms="2347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wrongUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[tc_008_validateLoginBehavior is onTestStart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_008_validateLoginBehavior -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:01 IST" name="postcondition" finished-at="2025-12-17T02:49:01 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:01 IST" name="precondition" finished-at="2025-12-17T02:49:06 IST" duration-ms="4513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="tc_008_validateLoginBehavior(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:06 IST" name="tc_008_validateLoginBehavior" data-provider="loginData" finished-at="2025-12-17T02:49:09 IST" duration-ms="2782" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ADMIN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[tc_008_validateLoginBehavior is onTestStart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_008_validateLoginBehavior -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:09 IST" name="postcondition" finished-at="2025-12-17T02:49:09 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:09 IST" name="precondition" finished-at="2025-12-17T02:49:13 IST" duration-ms="4351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="tc_008_validateLoginBehavior(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:13 IST" name="tc_008_validateLoginBehavior" data-provider="loginData" finished-at="2025-12-17T02:49:15 IST" duration-ms="2097" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[tc_008_validateLoginBehavior is onTestStart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_008_validateLoginBehavior -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:15 IST" name="postcondition" finished-at="2025-12-17T02:49:15 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:15 IST" name="precondition" finished-at="2025-12-17T02:49:20 IST" duration-ms="4586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="tc_008_validateLoginBehavior(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:20 IST" name="tc_008_validateLoginBehavior" data-provider="loginData" finished-at="2025-12-17T02:49:23 IST" duration-ms="3030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[tc_008_validateLoginBehavior is onTestStart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_008_validateLoginBehavior -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:23 IST" name="postcondition" finished-at="2025-12-17T02:49:23 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:23 IST" name="precondition" finished-at="2025-12-17T02:49:30 IST" duration-ms="6597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="tc_008_validateLoginBehavior(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:30 IST" name="tc_008_validateLoginBehavior" data-provider="loginData" finished-at="2025-12-17T02:49:33 IST" duration-ms="2812" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA['OR '1'='1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[tc_008_validateLoginBehavior is onTestStart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_008_validateLoginBehavior -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:33 IST" name="postcondition" finished-at="2025-12-17T02:49:33 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:33 IST" name="precondition" finished-at="2025-12-17T02:49:37 IST" duration-ms="4416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="tc_008_validateLoginBehavior(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:37 IST" name="tc_008_validateLoginBehavior" data-provider="loginData" finished-at="2025-12-17T02:49:41 IST" duration-ms="3431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123@]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[tc_008_validateLoginBehavior is onTestStart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_008_validateLoginBehavior -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:41 IST" name="postcondition" finished-at="2025-12-17T02:49:41 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:41 IST" name="precondition" finished-at="2025-12-17T02:49:46 IST" duration-ms="4702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="tc_009_verifyErrorMessageText(java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:46 IST" name="tc_009_verifyErrorMessageText" data-provider="loginData" finished-at="2025-12-17T02:49:46 IST" duration-ms="3" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -148,11 +473,11 @@
           </params>
           <exception class="org.testng.SkipException">
             <message>
-              <![CDATA[Skipping error message check for valid login]]>
+              <![CDATA[Skipping valid login case]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.testng.SkipException: Skipping error message check for valid login
-at functionalTesting.LoginTest.tc_004(LoginTest.java:40)
+              <![CDATA[org.testng.SkipException: Skipping valid login case
+at functionalTesting.LoginTest.tc_009_verifyErrorMessageText(LoginTest.java:84)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -184,19 +509,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </exception> <!-- org.testng.SkipException -->
           <reporter-output>
             <line>
-              <![CDATA[tc_004 is onTestStart]]>
+              <![CDATA[tc_009_verifyErrorMessageText is onTestStart]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc_004 -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:01:56 IST" name="postcondition" finished-at="2025-12-16T23:01:56 IST" duration-ms="186" status="PASS">
+        </test-method> <!-- tc_009_verifyErrorMessageText -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:46 IST" name="postcondition" finished-at="2025-12-17T02:49:46 IST" duration-ms="178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:01:56 IST" name="precondition" finished-at="2025-12-16T23:02:01 IST" duration-ms="4773" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:46 IST" name="precondition" finished-at="2025-12-17T02:49:51 IST" duration-ms="4694" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_004(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:02:01 IST" name="tc_004" data-provider="loginData" finished-at="2025-12-16T23:02:02 IST" duration-ms="939" status="FAIL">
+        <test-method signature="tc_009_verifyErrorMessageText(java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:51 IST" name="tc_009_verifyErrorMessageText" data-provider="loginData" finished-at="2025-12-17T02:49:53 IST" duration-ms="2841" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -214,62 +539,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "element" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "element" is null
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-at com.crm.SeleniumUtility.WaitFactory.waitForVisibility(WaitFactory.java:16)
-at functionalTesting.LoginTest.tc_004(LoginTest.java:48)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
             <line>
-              <![CDATA[tc_004 is onTestStart]]>
+              <![CDATA[tc_009_verifyErrorMessageText is onTestStart]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc_004 -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:02:04 IST" name="postcondition" finished-at="2025-12-16T23:02:04 IST" duration-ms="240" status="PASS">
+        </test-method> <!-- tc_009_verifyErrorMessageText -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:53 IST" name="postcondition" finished-at="2025-12-17T02:49:54 IST" duration-ms="170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:02:04 IST" name="precondition" finished-at="2025-12-16T23:02:09 IST" duration-ms="5125" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:54 IST" name="precondition" finished-at="2025-12-17T02:49:58 IST" duration-ms="4299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_004(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:02:09 IST" name="tc_004" data-provider="loginData" finished-at="2025-12-16T23:02:10 IST" duration-ms="954" status="FAIL">
+        <test-method signature="tc_009_verifyErrorMessageText(java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:58 IST" name="tc_009_verifyErrorMessageText" data-provider="loginData" finished-at="2025-12-17T02:50:00 IST" duration-ms="2451" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -287,555 +571,25 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "element" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "element" is null
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-at com.crm.SeleniumUtility.WaitFactory.waitForVisibility(WaitFactory.java:16)
-at functionalTesting.LoginTest.tc_004(LoginTest.java:48)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
             <line>
-              <![CDATA[tc_004 is onTestStart]]>
+              <![CDATA[tc_009_verifyErrorMessageText is onTestStart]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc_004 -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:02:11 IST" name="postcondition" finished-at="2025-12-16T23:02:11 IST" duration-ms="194" status="PASS">
+        </test-method> <!-- tc_009_verifyErrorMessageText -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:00 IST" name="postcondition" finished-at="2025-12-17T02:50:00 IST" duration-ms="180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:02:11 IST" name="precondition" finished-at="2025-12-16T23:02:17 IST" duration-ms="5379" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:00 IST" name="precondition" finished-at="2025-12-17T02:50:05 IST" duration-ms="4273" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_004(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:02:17 IST" name="tc_004" data-provider="loginData" finished-at="2025-12-16T23:02:18 IST" duration-ms="928" status="FAIL">
+        <test-method signature="tc_009_verifyErrorMessageText(java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:05 IST" name="tc_009_verifyErrorMessageText" data-provider="loginData" finished-at="2025-12-17T02:50:05 IST" duration-ms="1" status="SKIP">
           <params>
             <param index="0">
               <value>
                 <![CDATA[ADMIN]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "element" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "element" is null
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-at com.crm.SeleniumUtility.WaitFactory.waitForVisibility(WaitFactory.java:16)
-at functionalTesting.LoginTest.tc_004(LoginTest.java:48)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-            <line>
-              <![CDATA[tc_004 is onTestStart]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tc_004 -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:02:20 IST" name="postcondition" finished-at="2025-12-16T23:02:20 IST" duration-ms="183" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:02:20 IST" name="precondition" finished-at="2025-12-16T23:02:24 IST" duration-ms="4438" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- precondition -->
-        <test-method signature="tc_004(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:02:24 IST" name="tc_004" data-provider="loginData" finished-at="2025-12-16T23:02:25 IST" duration-ms="1108" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "element" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "element" is null
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-at com.crm.SeleniumUtility.WaitFactory.waitForVisibility(WaitFactory.java:16)
-at functionalTesting.LoginTest.tc_004(LoginTest.java:48)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-            <line>
-              <![CDATA[tc_004 is onTestStart]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tc_004 -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:02:27 IST" name="postcondition" finished-at="2025-12-16T23:02:27 IST" duration-ms="182" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:02:27 IST" name="precondition" finished-at="2025-12-16T23:02:32 IST" duration-ms="4684" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- precondition -->
-        <test-method signature="tc_004(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:02:32 IST" name="tc_004" data-provider="loginData" finished-at="2025-12-16T23:02:33 IST" duration-ms="1223" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Admin123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "element" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "element" is null
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-at com.crm.SeleniumUtility.WaitFactory.waitForVisibility(WaitFactory.java:16)
-at functionalTesting.LoginTest.tc_004(LoginTest.java:48)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-            <line>
-              <![CDATA[tc_004 is onTestStart]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tc_004 -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:02:35 IST" name="postcondition" finished-at="2025-12-16T23:02:35 IST" duration-ms="189" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:02:35 IST" name="precondition" finished-at="2025-12-16T23:02:40 IST" duration-ms="5333" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- precondition -->
-        <test-method signature="tc_004(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:02:40 IST" name="tc_004" data-provider="loginData" finished-at="2025-12-16T23:02:42 IST" duration-ms="1549" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA['OR '1'='1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "element" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "element" is null
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-at com.crm.SeleniumUtility.WaitFactory.waitForVisibility(WaitFactory.java:16)
-at functionalTesting.LoginTest.tc_004(LoginTest.java:48)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-            <line>
-              <![CDATA[tc_004 is onTestStart]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tc_004 -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:02:44 IST" name="postcondition" finished-at="2025-12-16T23:02:44 IST" duration-ms="219" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:02:44 IST" name="precondition" finished-at="2025-12-16T23:02:48 IST" duration-ms="4451" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- precondition -->
-        <test-method signature="tc_004(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:02:48 IST" name="tc_004" data-provider="loginData" finished-at="2025-12-16T23:02:49 IST" duration-ms="1223" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123@]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "element" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.isDisplayed()" because "element" is null
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-at com.crm.SeleniumUtility.WaitFactory.waitForVisibility(WaitFactory.java:16)
-at functionalTesting.LoginTest.tc_004(LoginTest.java:48)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-            <line>
-              <![CDATA[tc_004 is onTestStart]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tc_004 -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:02:51 IST" name="postcondition" finished-at="2025-12-16T23:02:51 IST" duration-ms="190" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:02:51 IST" name="precondition" finished-at="2025-12-16T23:02:56 IST" duration-ms="4706" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- precondition -->
-        <test-method signature="tc_004(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:02:56 IST" name="tc_004" data-provider="loginData" finished-at="2025-12-16T23:02:56 IST" duration-ms="2" status="FAIL">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.equalsIgnoreCase(String)" because "expectedResult" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "expectedResult" is null
-at functionalTesting.LoginTest.tc_004(LoginTest.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-            <line>
-              <![CDATA[tc_004 is onTestStart]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tc_004 -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:02:56 IST" name="postcondition" finished-at="2025-12-16T23:02:56 IST" duration-ms="175" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:02:56 IST" name="precondition" finished-at="2025-12-16T23:03:01 IST" duration-ms="4832" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- precondition -->
-        <test-method signature="tc_004(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:03:01 IST" name="tc_004" data-provider="loginData" finished-at="2025-12-16T23:03:01 IST" duration-ms="1" status="FAIL">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.equalsIgnoreCase(String)" because "expectedResult" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "expectedResult" is null
-at functionalTesting.LoginTest.tc_004(LoginTest.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-            <line>
-              <![CDATA[tc_004 is onTestStart]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tc_004 -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:03:01 IST" name="postcondition" finished-at="2025-12-16T23:03:01 IST" duration-ms="190" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:03:01 IST" name="precondition" finished-at="2025-12-16T23:03:07 IST" duration-ms="5475" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- precondition -->
-        <test-method signature="tc_005(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:03:07 IST" name="tc_005" data-provider="loginData" finished-at="2025-12-16T23:03:08 IST" duration-ms="970" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
               </value>
             </param>
             <param index="1">
@@ -849,16 +603,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="org.testng.SkipException">
             <message>
-              <![CDATA[Valid login failed expected [true] but found [false]]]>
+              <![CDATA[Skipping valid login case]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Valid login failed expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at functionalTesting.LoginTest.tc_005(LoginTest.java:61)
+              <![CDATA[org.testng.SkipException: Skipping valid login case
+at functionalTesting.LoginTest.tc_009_verifyErrorMessageText(LoginTest.java:84)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -887,157 +638,22 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
             <line>
-              <![CDATA[tc_005 is onTestStart]]>
+              <![CDATA[tc_009_verifyErrorMessageText is onTestStart]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc_005 -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:03:09 IST" name="postcondition" finished-at="2025-12-16T23:03:10 IST" duration-ms="183" status="PASS">
+        </test-method> <!-- tc_009_verifyErrorMessageText -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:05 IST" name="postcondition" finished-at="2025-12-17T02:50:05 IST" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:03:10 IST" name="precondition" finished-at="2025-12-16T23:03:15 IST" duration-ms="4984" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:05 IST" name="precondition" finished-at="2025-12-17T02:50:10 IST" duration-ms="4669" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_005(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:03:15 IST" name="tc_005" data-provider="loginData" finished-at="2025-12-16T23:03:17 IST" duration-ms="2401" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin ]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[wrong123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[tc_005 is onTestStart]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tc_005 -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:03:17 IST" name="postcondition" finished-at="2025-12-16T23:03:17 IST" duration-ms="181" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:03:17 IST" name="precondition" finished-at="2025-12-16T23:03:23 IST" duration-ms="5436" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- precondition -->
-        <test-method signature="tc_005(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:03:23 IST" name="tc_005" data-provider="loginData" finished-at="2025-12-16T23:03:25 IST" duration-ms="2007" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[wrongUser]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[wrong123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[tc_005 is onTestStart]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tc_005 -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:03:25 IST" name="postcondition" finished-at="2025-12-16T23:03:25 IST" duration-ms="169" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:03:25 IST" name="precondition" finished-at="2025-12-16T23:03:30 IST" duration-ms="4914" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- precondition -->
-        <test-method signature="tc_005(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:03:30 IST" name="tc_005" data-provider="loginData" finished-at="2025-12-16T23:03:32 IST" duration-ms="2673" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ADMIN]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Invalid login validation failed expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Invalid login validation failed expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at functionalTesting.LoginTest.tc_005(LoginTest.java:63)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-            <line>
-              <![CDATA[tc_005 is onTestStart]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tc_005 -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:03:33 IST" name="postcondition" finished-at="2025-12-16T23:03:33 IST" duration-ms="170" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:03:33 IST" name="precondition" finished-at="2025-12-16T23:03:38 IST" duration-ms="4972" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- precondition -->
-        <test-method signature="tc_005(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:03:38 IST" name="tc_005" data-provider="loginData" finished-at="2025-12-16T23:03:40 IST" duration-ms="2484" status="FAIL">
+        <test-method signature="tc_009_verifyErrorMessageText(java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:10 IST" name="tc_009_verifyErrorMessageText" data-provider="loginData" finished-at="2025-12-17T02:50:10 IST" duration-ms="2" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -1051,20 +667,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="2">
               <value>
-                <![CDATA[Invalid]]>
+                <![CDATA[Valid]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="org.testng.SkipException">
             <message>
-              <![CDATA[Invalid login validation failed expected [true] but found [false]]]>
+              <![CDATA[Skipping valid login case]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Invalid login validation failed expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at functionalTesting.LoginTest.tc_005(LoginTest.java:63)
+              <![CDATA[org.testng.SkipException: Skipping valid login case
+at functionalTesting.LoginTest.tc_009_verifyErrorMessageText(LoginTest.java:84)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -1093,22 +706,22 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
             <line>
-              <![CDATA[tc_005 is onTestStart]]>
+              <![CDATA[tc_009_verifyErrorMessageText is onTestStart]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc_005 -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:03:40 IST" name="postcondition" finished-at="2025-12-16T23:03:41 IST" duration-ms="173" status="PASS">
+        </test-method> <!-- tc_009_verifyErrorMessageText -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:10 IST" name="postcondition" finished-at="2025-12-17T02:50:10 IST" duration-ms="175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:03:41 IST" name="precondition" finished-at="2025-12-16T23:03:46 IST" duration-ms="5235" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:10 IST" name="precondition" finished-at="2025-12-17T02:50:14 IST" duration-ms="4298" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_005(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:03:46 IST" name="tc_005" data-provider="loginData" finished-at="2025-12-16T23:03:48 IST" duration-ms="2148" status="PASS">
+        <test-method signature="tc_009_verifyErrorMessageText(java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:14 IST" name="tc_009_verifyErrorMessageText" data-provider="loginData" finished-at="2025-12-17T02:50:17 IST" duration-ms="2708" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1128,19 +741,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </params>
           <reporter-output>
             <line>
-              <![CDATA[tc_005 is onTestStart]]>
+              <![CDATA[tc_009_verifyErrorMessageText is onTestStart]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc_005 -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:03:48 IST" name="postcondition" finished-at="2025-12-16T23:03:48 IST" duration-ms="186" status="PASS">
+        </test-method> <!-- tc_009_verifyErrorMessageText -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:17 IST" name="postcondition" finished-at="2025-12-17T02:50:17 IST" duration-ms="205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:03:48 IST" name="precondition" finished-at="2025-12-16T23:03:53 IST" duration-ms="4922" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:17 IST" name="precondition" finished-at="2025-12-17T02:50:22 IST" duration-ms="4603" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_005(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:03:53 IST" name="tc_005" data-provider="loginData" finished-at="2025-12-16T23:03:56 IST" duration-ms="2492" status="PASS">
+        <test-method signature="tc_009_verifyErrorMessageText(java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:22 IST" name="tc_009_verifyErrorMessageText" data-provider="loginData" finished-at="2025-12-17T02:50:25 IST" duration-ms="2977" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1160,19 +773,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </params>
           <reporter-output>
             <line>
-              <![CDATA[tc_005 is onTestStart]]>
+              <![CDATA[tc_009_verifyErrorMessageText is onTestStart]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc_005 -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:03:56 IST" name="postcondition" finished-at="2025-12-16T23:03:56 IST" duration-ms="180" status="PASS">
+        </test-method> <!-- tc_009_verifyErrorMessageText -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:25 IST" name="postcondition" finished-at="2025-12-17T02:50:25 IST" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:03:56 IST" name="precondition" finished-at="2025-12-16T23:04:01 IST" duration-ms="4822" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:25 IST" name="precondition" finished-at="2025-12-17T02:50:30 IST" duration-ms="5381" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_005(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:04:01 IST" name="tc_005" data-provider="loginData" finished-at="2025-12-16T23:04:03 IST" duration-ms="2274" status="PASS">
+        <test-method signature="tc_009_verifyErrorMessageText(java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:30 IST" name="tc_009_verifyErrorMessageText" data-provider="loginData" finished-at="2025-12-17T02:50:33 IST" duration-ms="2761" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1192,147 +805,56 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </params>
           <reporter-output>
             <line>
-              <![CDATA[tc_005 is onTestStart]]>
+              <![CDATA[tc_009_verifyErrorMessageText is onTestStart]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc_005 -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:04:03 IST" name="postcondition" finished-at="2025-12-16T23:04:03 IST" duration-ms="194" status="PASS">
+        </test-method> <!-- tc_009_verifyErrorMessageText -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:33 IST" name="postcondition" finished-at="2025-12-17T02:50:33 IST" duration-ms="187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:04:03 IST" name="precondition" finished-at="2025-12-16T23:04:09 IST" duration-ms="5546" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:33 IST" name="precondition" finished-at="2025-12-17T02:50:37 IST" duration-ms="4270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_005(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:04:09 IST" name="tc_005" data-provider="loginData" finished-at="2025-12-16T23:04:09 IST" duration-ms="877" status="FAIL">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <exception class="java.lang.IllegalArgumentException">
-            <message>
-              <![CDATA[Keys to send should be a not null CharSequence]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy16.sendKeys(Unknown Source)
-at com.crm.Pom.Login.getUsername(Login.java:55)
-at functionalTesting.LoginTest.tc_005(LoginTest.java:56)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
+        <test-method signature="tc_010_verifyErrorForEmptyCredentials()[pri:9, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:37 IST" name="tc_010_verifyErrorForEmptyCredentials" finished-at="2025-12-17T02:50:38 IST" duration-ms="766" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[tc_005 is onTestStart]]>
+              <![CDATA[tc_010_verifyErrorForEmptyCredentials is onTestStart]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc_005 -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:04:10 IST" name="postcondition" finished-at="2025-12-16T23:04:10 IST" duration-ms="171" status="PASS">
+        </test-method> <!-- tc_010_verifyErrorForEmptyCredentials -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:38 IST" name="postcondition" finished-at="2025-12-17T02:50:38 IST" duration-ms="190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:04:10 IST" name="precondition" finished-at="2025-12-16T23:04:15 IST" duration-ms="4806" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:38 IST" name="precondition" finished-at="2025-12-17T02:50:43 IST" duration-ms="4275" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_005(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:04:15 IST" name="tc_005" data-provider="loginData" finished-at="2025-12-16T23:04:16 IST" duration-ms="1004" status="FAIL">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-            </param>
-            <param index="1">
-              <value is-null="true"/>
-            </param>
-            <param index="2">
-              <value is-null="true"/>
-            </param>
-          </params>
-          <exception class="java.lang.IllegalArgumentException">
-            <message>
-              <![CDATA[Keys to send should be a not null CharSequence]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy16.sendKeys(Unknown Source)
-at com.crm.Pom.Login.getUsername(Login.java:55)
-at functionalTesting.LoginTest.tc_005(LoginTest.java:56)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
+        <test-method signature="tc_011_verifySocialIconsDisplayed()[pri:10, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:43 IST" name="tc_011_verifySocialIconsDisplayed" finished-at="2025-12-17T02:50:43 IST" duration-ms="649" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[tc_005 is onTestStart]]>
+              <![CDATA[tc_011_verifySocialIconsDisplayed is onTestStart]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc_005 -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@557caf28]" started-at="2025-12-16T23:04:16 IST" name="postcondition" finished-at="2025-12-16T23:04:16 IST" duration-ms="187" status="PASS">
+        </test-method> <!-- tc_011_verifySocialIconsDisplayed -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:43 IST" name="postcondition" finished-at="2025-12-17T02:50:43 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:43 IST" name="precondition" finished-at="2025-12-17T02:50:48 IST" duration-ms="4491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="tc_012_verifyFooterText()[pri:11, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:48 IST" name="tc_012_verifyFooterText" finished-at="2025-12-17T02:50:49 IST" duration-ms="877" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tc_012_verifyFooterText is onTestStart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_012_verifyFooterText -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:49 IST" name="postcondition" finished-at="2025-12-17T02:50:49 IST" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
