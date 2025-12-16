@@ -30,5 +30,7 @@ public class ChildBrowser extends BaseClass {
 		}
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//span[text()='Create new account']")).click();
- }
+		
+		BaseClass.postCondition2();
+	}
 }

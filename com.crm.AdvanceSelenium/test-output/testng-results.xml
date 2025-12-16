@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="2" failed="1" skipped="1">
+  <reporter-output>
+    <line>
+      <![CDATA[onStart]]>
+    </line>
+    <line>
+      <![CDATA[tc_002 is onTestStart]]>
+    </line>
+    <line>
+      <![CDATA[tc_004 is onTestStart]]>
+    </line>
+    <line>
+      <![CDATA[tc_001 is onTestStart]]>
+    </line>
+    <line>
+      <![CDATA[tc_003 is onTestStart]]>
+    </line>
+    <line>
+      <![CDATA[onFinish]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-12-15T16:00:38 IST" name="Default suite" finished-at="2025-12-15T16:01:02 IST" duration-ms="24614">
+    <groups>
+    </groups>
+    <test started-at="2025-12-15T16:00:38 IST" name="Default test" finished-at="2025-12-15T16:01:02 IST" duration-ms="24614">
+      <class name="extentReports.ReportWithMultipleTestCases">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:extentReports.ReportWithMultipleTestCases@557caf28]" started-at="2025-12-15T16:00:38 IST" name="precondition" finished-at="2025-12-15T16:00:45 IST" duration-ms="6296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="tc_002()[pri:0, instance:extentReports.ReportWithMultipleTestCases@557caf28]" started-at="2025-12-15T16:00:45 IST" name="tc_002" finished-at="2025-12-15T16:00:46 IST" duration-ms="935" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tc_002 is onTestStart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_002 -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:extentReports.ReportWithMultipleTestCases@557caf28]" started-at="2025-12-15T16:00:46 IST" name="postcondition" finished-at="2025-12-15T16:00:46 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:extentReports.ReportWithMultipleTestCases@557caf28]" started-at="2025-12-15T16:00:46 IST" name="precondition" finished-at="2025-12-15T16:00:53 IST" duration-ms="6831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="tc_004()[pri:0, instance:extentReports.ReportWithMultipleTestCases@557caf28]" started-at="2025-12-15T16:00:53 IST" name="tc_004" finished-at="2025-12-15T16:00:54 IST" duration-ms="1884" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at extentReports.ReportWithMultipleTestCases.tc_004(ReportWithMultipleTestCases.java:41)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[tc_004 is onTestStart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_004 -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:extentReports.ReportWithMultipleTestCases@557caf28]" started-at="2025-12-15T16:00:56 IST" name="postcondition" finished-at="2025-12-15T16:00:56 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:extentReports.ReportWithMultipleTestCases@557caf28]" started-at="2025-12-15T16:00:56 IST" name="precondition" finished-at="2025-12-15T16:01:01 IST" duration-ms="5276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="tc_001()[pri:0, instance:extentReports.ReportWithMultipleTestCases@557caf28]" started-at="2025-12-15T16:01:01 IST" name="tc_001" finished-at="2025-12-15T16:01:02 IST" duration-ms="965" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tc_001 is onTestStart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_001 -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:extentReports.ReportWithMultipleTestCases@557caf28]" started-at="2025-12-15T16:01:02 IST" name="postcondition" finished-at="2025-12-15T16:01:02 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method signature="tc_003()[pri:0, instance:extentReports.ReportWithMultipleTestCases@557caf28]" started-at="2025-12-15T16:01:02 IST" name="tc_003" finished-at="2025-12-15T16:01:02 IST" depends-on-methods="extentReports.ReportWithMultipleTestCases.tc_004" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method extentReports.ReportWithMultipleTestCases.tc_003() on instance extentReports.ReportWithMultipleTestCases@557caf28 depends on not successfully finished methods 
+[extentReports.ReportWithMultipleTestCases.tc_004() on instance extentReports.ReportWithMultipleTestCases@557caf28]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method extentReports.ReportWithMultipleTestCases.tc_003() on instance extentReports.ReportWithMultipleTestCases@557caf28 depends on not successfully finished methods 
+[extentReports.ReportWithMultipleTestCases.tc_004() on instance extentReports.ReportWithMultipleTestCases@557caf28]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+            <line>
+              <![CDATA[onFinish]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_003 -->
+      </class> <!-- extentReports.ReportWithMultipleTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

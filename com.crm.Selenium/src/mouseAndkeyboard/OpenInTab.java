@@ -20,6 +20,6 @@ public class OpenInTab {
 		act.keyDown(Keys.CONTROL).click(books).perform();
 		Thread.sleep(2000);
 		
-		//driver.close();
+		driver.quit();
 	}
 }
