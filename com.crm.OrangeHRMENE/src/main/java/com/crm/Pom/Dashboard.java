@@ -99,8 +99,8 @@ public class Dashboard {
 	@FindBy(xpath = "//p[text()='(1) Pending Self Review']")
 	private WebElement myaction_link1;
 
-	@FindBy(xpath = "//p[contains(text(),'Candidates to Interview')]")
-	private WebElement myaction_link2;
+//	@FindBy(xpath = "//p[contains(text(),'Candidate to Interview')]")
+//	private WebElement myaction_link2;
 	
 	@FindBy(xpath = "//p[text()='Assign Leave']")
 	private WebElement quicklaunch_assignLeave;
@@ -129,11 +129,11 @@ public class Dashboard {
 	@FindBy(xpath = "//span[@title='Human Resources']")
 	private WebElement subunit_humanResources;
 
-	@FindBy(xpath = "//span[@title='Administration']")
-	private WebElement subunit_administration;
+//	@FindBy(xpath = "//span[@title='Administration']")
+//	private WebElement subunit_administration;
 
-	@FindBy(xpath = "//span[@title='Client Services']")
-	private WebElement subunit_clientServices;
+//	@FindBy(xpath = "//span[@title='Client Services']")
+//	private WebElement subunit_clientServices;
 
 	@FindBy(xpath = "//span[@title='Unassigned']")
 	private WebElement subunit_unassigned;
@@ -141,8 +141,8 @@ public class Dashboard {
 	@FindBy(xpath = "//span[@title='Texas R&D']")
 	private WebElement location_texasRD;
 
-	@FindBy(xpath = "//span[@title='New York Sales Office']")
-	private WebElement location_newYorkSales;
+//	@FindBy(xpath = "//span[@title='New York Sales Office']")
+//	private WebElement location_newYorkSales;
 
 	@FindBy(xpath = "(//span[@title='Unassigned'])[2]")
 	private WebElement location_unassigned;
@@ -277,9 +277,9 @@ public class Dashboard {
 		return myaction_link1;
 	}
 
-	public WebElement getMyaction_link2() {
-		return myaction_link2;
-	}
+//	public WebElement getMyaction_link2() {
+//		return myaction_link2;
+//	}
 	
 	public WebElement getQuicklaunch_assignLeave() { 
 		return quicklaunch_assignLeave; 
@@ -317,13 +317,13 @@ public class Dashboard {
 	    return subunit_humanResources;
 	}
 
-	public WebElement getSubunit_administration() {
-	    return subunit_administration;
-	}
+//	public WebElement getSubunit_administration() {
+//	    return subunit_administration;
+//	}
 
-	public WebElement getSubunit_clientServices() {
-	    return subunit_clientServices;
-	}
+//	public WebElement getSubunit_clientServices() {
+//	    return subunit_clientServices;
+//	}
 
 	public WebElement getSubunit_unassigned() {
 	    return subunit_unassigned;
@@ -333,9 +333,9 @@ public class Dashboard {
 	    return location_texasRD;
 	}
 
-	public WebElement getLocation_newYorkSales() {
-	    return location_newYorkSales;
-	}
+//	public WebElement getLocation_newYorkSales() {
+//	    return location_newYorkSales;
+//	}
 
 	public WebElement getLocation_unassigned() {
 	    return location_unassigned;

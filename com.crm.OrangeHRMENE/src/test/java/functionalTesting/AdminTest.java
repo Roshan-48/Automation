@@ -1,5 +1,5 @@
 package functionalTesting;
 
-public class Admin {
+public class AdminTest {
 	
 }
