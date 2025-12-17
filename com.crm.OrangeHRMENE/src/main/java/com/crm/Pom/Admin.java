@@ -142,180 +142,179 @@ public class Admin {
         PageFactory.initElements(driver, this);
     }
     
-    public void getAdmin_header() {
-		admin_header.isDisplayed();
-	}
+    public WebElement getAdmin_header() {
+        return admin_header;
+    }
+
+    public WebElement getTab_Search() {
+        return tab_search;
+    }
+
+    public WebElement getAdmin_tab() {
+        return admin_tab;
+    }
+
+    public WebElement getPim_tab() {
+        return pim_tab;
+    }
+
+    public WebElement getLeave_tab() {
+        return leave_tab;
+    }
+
+    public WebElement getTime_tab() {
+        return time_tab;
+    }
+
+    public WebElement getRecruitment_tab() {
+        return recruitment_tab;
+    }
+
+    public WebElement getMyinfo_tab() {
+        return myinfo_tab;
+    }
+
+    public WebElement getPerformance_tab() {
+        return performance_tab;
+    }
+
+    public WebElement getDashboard_tab() {
+        return dashboard_tab;
+    }
+
+    public WebElement getDirectory_tab() {
+        return directory_tab;
+    }
+
+    public WebElement getMaintenance_tab() {
+        return maintenance_tab;
+    }
+
+    public WebElement getClaim_tab() {
+        return claim_tab;
+    }
+
+    public WebElement getBuzz_tab() {
+        return buzz_tab;
+    }
+
+    public WebElement getSidebar_arrow() {
+        return sidebar_arrow;
+    }
+
+    public WebElement getUpgrade_button() {
+        return upgrade_button;
+    }
+
+    public WebElement getProfile_icon() {
+        return profile_icon;
+    }
+
+    public WebElement getAbout_option() {
+        return about_option;
+    }
+
+    public WebElement getSupport_option() {
+        return support_option;
+    }
+
+    public WebElement getChange_password_option() {
+        return change_password_option;
+    }
+
+    public WebElement getLogout_option() {
+        return logout_option;
+    }
+
+    public WebElement getUserManagement_menu() {
+        return userManagement_menu;
+    }
+
+    public WebElement getJob_menu() {
+        return job_menu;
+    }
+
+    public WebElement getOrganization_menu() {
+        return organization_menu;
+    }
+
+    public WebElement getQualifications_menu() {
+        return qualifications_menu;
+    }
+
+    public WebElement getNationalities_menu() {
+        return nationalities_menu;
+    }
+
+    public WebElement getCorporateBranding_menu() {
+        return corporateBranding_menu;
+    }
+
+    public WebElement getConfiguration_menu() {
+        return configuration_menu;
+    }
+
+    public WebElement getHelp_button() {
+        return help_button;
+    }
+
+    public WebElement getSearch_username() {
+        return search_username;
+    }
+
+    public WebElement getSearch_userRole_dropdown() {
+        return search_userRole_dropdown;
+    }
+
+    public WebElement getSearch_employeeName() {
+        return search_employeeName;
+    }
+
+    public WebElement getSearch_status_dropdown() {
+        return search_status_dropdown;
+    }
+
+    public WebElement getReset_button() {
+        return reset_button;
+    }
+
+    public WebElement getSearch_button() {
+        return search_button;
+    }
+
+    public WebElement getAdd_button() {
+        return add_button;
+    }
+
+    public WebElement getTable_header_checkbox() {
+        return table_header_checkbox;
+    }
+
+    public WebElement getTable_header() {
+        return table_header;
+    }
+
+    public WebElement getTable_body() {
+        return table_body;
+    }
+
+    public WebElement getEdit_firstRecord() {
+        return edit_firstRecord;
+    }
+
+    public WebElement getDelete_firstRecord() {
+        return delete_firstRecord;
+    }
+
+    public WebElement getConfirm_delete() {
+        return confirm_delete;
+    }
+
+    public WebElement getCancel_delete() {
+        return cancel_delete;
+    }
     
-    public void getTab_Search(String data) {
-		tab_search.sendKeys(data);
-	}
-
-    public void getAdmin_tab() {
-		admin_tab.click();
-	}
-
-	public void getPim_tab() {
-		pim_tab.click();
-	}
-
-	public void getLeave_tab() {
-		leave_tab.click();
-	}
-
-	public void getTime_tab() {
-		time_tab.click();
-	}
-
-	public void getRecruitment_tab() {
-		recruitment_tab.click();
-	}
-
-	public void getMyinfo_tab()  {
-		myinfo_tab.click();
-	}
-
-	public void getPerformance_tab() {
-		performance_tab.click();
-	}
-
-	public void getDashboard_tab() {
-		dashboard_tab.click();
-	}
-
-	public void getDirectory_tab() {
-		directory_tab.click();
-	}
-
-	public void getMaintenance_tab() {
-		maintenance_tab.click();
-	}
-
-	public void getClaim_tab() {
-		claim_tab.click();
-	}
-
-	public void getBuzz_tab() {
-		buzz_tab.click();
-	}
-	
-	public void getSidebar_arrow() {
-		sidebar_arrow.click();
-	}
-	
-	public void getUpgrade_button() {
-		upgrade_button.click();
-	}
-	
-	public void getProfile_icon() {
-		profile_icon.click();
-	}
-
-	public void getAbout_option() {
-		about_option.click();
-	}
-
-	public void getSupport_option() {
-		support_option.click();
-	}
-
-	public void getChange_password_option() {
-		change_password_option.click();
-	}
-
-	public void getLogout_option() {
-		logout_option.click();
-	}
-	
-	public void getUserManagement_menu() { 
-		userManagement_menu.click(); 
-	}
-	
-	public void getJob_menu() { 
-		job_menu.click(); 
-	}
-	
-	public void getOrganization_menu() { 
-		organization_menu.click(); 
-	}
-	
-	public void getQualifications_menu() { 
-		qualifications_menu.click(); 
-	}
-	
-	public void getNationalities_menu() { 
-		nationalities_menu.click(); 
-	}
-	
-	public void getCorporateBranding_menu() { 
-		corporateBranding_menu.click(); 
-	}
-	
-	public void getConfiguration_menu() { 
-		configuration_menu.click(); 
-	}
-	
-	public void getHelp_button() {
-		help_button.click();
-	}
-	
-	public void getSearch_username(String data) {
-	    search_username.sendKeys(data);
-	}
-
-	public void getSearch_userRole_dropdown() {
-	    search_userRole_dropdown.click();
-	}
-
-	public void getSearch_employeeName(String data) {
-	    search_employeeName.sendKeys(data);
-	}
-
-	public void getSearch_status_dropdown() {
-	    search_status_dropdown.click();
-	}
-
-	public void getReset_button() {
-	    reset_button.click();
-	}
-	
-	public void getSearch_button() {
-	    search_button.click();
-	}
-
-	public void getAdd_button() {
-	    add_button.click();
-	}
-	
-	public void getTable_header_checkbox() {
-	    table_header_checkbox.click();
-	}
-	
-	public void getTable_header() {
-	    table_header.isDisplayed();
-	}
-
-	public void getTable_body() {
-	    table_body.isDisplayed();
-	}
-
-	public void getEdit_firstRecord() {
-	    edit_firstRecord.click();
-	}
-
-	public void getDelete_firstRecord() {
-	    delete_firstRecord.click();
-	}
-
-	public void getConfirm_delete() {
-	    confirm_delete.click();
-	}
-
-	public void getCancel_delete() {
-	    cancel_delete.click();
-	}
-	
 	public String getFooter_text() {
-		footer_text.click();
 		return footer_text.getText();
 	}
 }

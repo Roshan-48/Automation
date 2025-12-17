@@ -95,15 +95,12 @@ public class Dashboard {
 	
 	@FindBy(css = "i[class='oxd-icon bi-stopwatch']")
 	private WebElement time_clock_icon;
-	
-	@FindBy(xpath = "//p[text()=' (2) Timesheets to Approve']")
-	private WebElement myaction_link1;
 
 	@FindBy(xpath = "//p[text()='(1) Pending Self Review']")
-	private WebElement myaction_link2;
+	private WebElement myaction_link1;
 
-	@FindBy(xpath = "//p[text()='(1) Candidate to Interview']")
-	private WebElement myaction_link3;
+	@FindBy(xpath = "//p[contains(text(),'Candidates to Interview')]")
+	private WebElement myaction_link2;
 	
 	@FindBy(xpath = "//p[text()='Assign Leave']")
 	private WebElement quicklaunch_assignLeave;
@@ -157,200 +154,194 @@ public class Dashboard {
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void getDashboard_header() {
-		dashboard_header.isDisplayed();
+	public WebElement getDashboard_header() {
+		return dashboard_header;
+	}
+	public WebElement getTab_Search() {
+		return tab_search;
 	}
 	
-	public void getTab_Search(String data) {
-		tab_search.sendKeys(data);
+	public WebElement getAdmin_tab() {
+	    return admin_tab;
 	}
 
-	public void getAdmin_tab() {
-		admin_tab.click();
+	public WebElement getPim_tab() {
+	    return pim_tab;
 	}
 
-	public void getPim_tab() {
-		pim_tab.click();
+	public WebElement getLeave_tab() {
+	    return leave_tab;
 	}
 
-	public void getLeave_tab() {
-		leave_tab.click();
+	public WebElement getTime_tab() {
+	    return time_tab;
 	}
 
-	public void getTime_tab() {
-		time_tab.click();
+	public WebElement getRecruitment_tab() {
+	    return recruitment_tab;
 	}
 
-	public void getRecruitment_tab() {
-		recruitment_tab.click();
+	public WebElement getMyinfo_tab() {
+	    return myinfo_tab;
 	}
 
-	public void getMyinfo_tab()  {
-		myinfo_tab.click();
+	public WebElement getPerformance_tab() {
+	    return performance_tab;
 	}
 
-	public void getPerformance_tab() {
-		performance_tab.click();
+	public WebElement getDashboard_tab() {
+	    return dashboard_tab;
 	}
 
-	public void getDashboard_tab() {
-		dashboard_tab.click();
+	public WebElement getDirectory_tab() {
+	    return directory_tab;
 	}
 
-	public void getDirectory_tab() {
-		directory_tab.click();
+	public WebElement getMaintenance_tab() {
+	    return maintenance_tab;
 	}
 
-	public void getMaintenance_tab() {
-		maintenance_tab.click();
+	public WebElement getClaim_tab() {
+	    return claim_tab;
 	}
 
-	public void getClaim_tab() {
-		claim_tab.click();
-	}
-
-	public void getBuzz_tab() {
-		buzz_tab.click();
+	public WebElement getBuzz_tab() {
+	    return buzz_tab;
 	}
 	
-	public void getSidebar_arrow() {
-		sidebar_arrow.click();
+	public WebElement getSidebar_arrow() {
+		return sidebar_arrow;
 	}
 	
-	public void getUpgrade_button() {
-		upgrade_button.click();
+	public WebElement getUpgrade_button() {
+		return upgrade_button;
 	}
 	
-	public void getProfile_icon() {
-		profile_icon.click();
+	public WebElement getProfile_icon() {
+	    return profile_icon;
 	}
 
-	public void getAbout_option() {
-		about_option.click();
+	public WebElement getAbout_option() {
+	    return about_option;
 	}
 
-	public void getSupport_option() {
-		support_option.click();
+	public WebElement getSupport_option() {
+	    return support_option;
 	}
 
-	public void getChange_password_option() {
-		change_password_option.click();
+	public WebElement getChange_password_option() {
+	    return change_password_option;
 	}
 
-	public void getLogout_option() {
-		logout_option.click();
+	public WebElement getLogout_option() {
+	    return logout_option;
+	}
+
+	public WebElement getHelp_button() {
+		return help_button;
+	}
+
+	public WebElement getWidget_time_at_work() {
+		return widget_time_at_work;
+	}
+
+	public WebElement getWidget_my_actions() {
+		return widget_my_actions;
+	}
+
+	public WebElement getWidget_quick_launch() {
+		return widget_quick_launch;
+	}
+
+	public WebElement getWidget_buzz_posts() {
+		return widget_buzz_posts; 
+	}
+
+	public WebElement getWidget_employees_on_leave() {
+		return widget_employees_on_leave;
+	}
+
+	public WebElement getWidget_employee_distribution() {
+		return widget_employee_distribution;
+	}
+
+	public WebElement getWidget_employee_location() {
+		return widget_employee_location;
 	}
 	
-	public void getHelp_button() {
-		help_button.click();
-	}
-
-	public void getWidget_time_at_work() {
-		widget_time_at_work.isDisplayed();
-	}
-
-	public void getWidget_my_actions() {
-		widget_my_actions.isDisplayed();
-	}
-
-	public void getWidget_quick_launch() {
-		widget_quick_launch.isDisplayed();
-	}
-
-	public void getWidget_buzz_posts() {
-		widget_buzz_posts.isDisplayed(); 
-	}
-
-	public void getWidget_employees_on_leave() {
-		widget_employees_on_leave.isDisplayed();
-	}
-
-	public void getWidget_employee_distribution() {
-		widget_employee_distribution.isDisplayed();
-	}
-
-	public void getWidget_employee_location() {
-		widget_employee_location.isDisplayed();
+	public WebElement getTime_clock_icon() {
+		return time_clock_icon;
 	}
 	
-	public void getTime_clock_icon() {
-		time_clock_icon.click();
+	public WebElement getMyaction_link1() {
+		return myaction_link1;
+	}
+
+	public WebElement getMyaction_link2() {
+		return myaction_link2;
 	}
 	
-	public void getMyaction_link1() {
-		myaction_link1.click();
+	public WebElement getQuicklaunch_assignLeave() { 
+		return quicklaunch_assignLeave; 
 	}
 
-	public void getMyaction_link2() {
-		myaction_link2.click();
+	public WebElement getQuicklaunch_leaveList() { 
+		return quicklaunch_leaveList; 
 	}
 
-	public void getMyaction_link3() {
-		myaction_link3.click();
-	}
-	
-	public void getQuicklaunch_assignLeave() { 
-		quicklaunch_assignLeave.click(); 
+	public WebElement getQuicklaunch_timesheets() { 
+		 return quicklaunch_timesheets; 
 	}
 
-	public void getQuicklaunch_leaveList() { 
-		quicklaunch_leaveList.click(); 
+	public WebElement getQuicklaunch_applyLeave() { 
+		return quicklaunch_applyLeave; 
 	}
 
-	public void getQuicklaunch_timesheets() { 
-		quicklaunch_timesheets.click(); 
+	public WebElement getQuicklaunch_myLeave() { 
+		return quicklaunch_myLeave; 
 	}
 
-	public void getQuicklaunch_applyLeave() { 
-		quicklaunch_applyLeave.click(); 
-	}
-
-	public void getQuicklaunch_myLeave() { 
-		quicklaunch_myLeave.click(); 
-	}
-
-	public void getQuicklaunch_myTimesheet() { 
-		quicklaunch_myTimesheet.click(); 
+	public WebElement getQuicklaunch_myTimesheet() { 
+		return quicklaunch_myTimesheet; 
 	}
 	
 	public void getLeave_today_settings() {
 		leave_today_settings.click();
 	}
 	
-	public void getSubunit_engineering() {
-		subunit_engineering.click();
+	public WebElement getSubunit_engineering() {
+	    return subunit_engineering;
 	}
 
-	public void getSubunit_humanResources() {
-		subunit_humanResources.click();
+	public WebElement getSubunit_humanResources() {
+	    return subunit_humanResources;
 	}
 
-	public void getSubunit_administration() {
-		subunit_administration.click();
+	public WebElement getSubunit_administration() {
+	    return subunit_administration;
 	}
 
-	public void getSubunit_clientServices() {
-		subunit_clientServices.click();
+	public WebElement getSubunit_clientServices() {
+	    return subunit_clientServices;
 	}
 
-	public void getSubunit_unassigned() {
-		subunit_unassigned.click();
+	public WebElement getSubunit_unassigned() {
+	    return subunit_unassigned;
+	}
+
+	public WebElement getLocation_texasRD() {
+	    return location_texasRD;
+	}
+
+	public WebElement getLocation_newYorkSales() {
+	    return location_newYorkSales;
+	}
+
+	public WebElement getLocation_unassigned() {
+	    return location_unassigned;
 	}
 	
-	public void getLocation_texasRD() {
-		location_texasRD.click();
-	}
-
-	public void getLocation_newYorkSales() {
-		location_newYorkSales.click();
-	}
-
-	public void getLocation_unassigned() {
-		location_unassigned.click();
-	}
-	
-	public String getFooter_text() {
-		footer_text.click();
-		return footer_text.getText();
+	public WebElement getFooter_text() {
+		return footer_text;
 	}
 }

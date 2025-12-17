@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-skipped">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\rosha\AppData\Local\Temp\testng-eclipse--1193706436\testng-customsuite.xml</span>
+                    <span>C:\Users\rosha\AppData\Local\Temp\testng-eclipse-1858057262\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,31 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">26 methods,  3 skipped,  23 passed</span>
+                    <span class="method-stats">17 methods, 1 failed,   16 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods skipped suite-Default_suite"> (hide)</a> <!-- hide-methods skipped suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods skipped suite-Default_suite"> (show)</a> <!-- show-methods skipped suite-Default_suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
                     </span>
-                    <div class="method-list-content skipped suite-Default_suite">
+                    <div class="method-list-content failed suite-Default_suite">
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.LoginTest" class="method navigator-link" hash-for-method="tc_009_verifyErrorMessageText(admin, admin123, Valid)">tc_009_verifyErrorMessageText(admin, admin123, Valid)</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.DashboardTest" class="method navigator-link" hash-for-method="tc_012_verifyMyActionsLinksDisplayed">tc_012_verifyMyActionsLinksDisplayed</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.LoginTest" class="method navigator-link" hash-for-method="tc_009_verifyErrorMessageText(Admin, admin123, Valid)">tc_009_verifyErrorMessageText(Admin, admin123, Valid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.LoginTest" class="method navigator-link" hash-for-method="tc_009_verifyErrorMessageText(ADMIN, admin123, Valid)">tc_009_verifyErrorMessageText(ADMIN, admin123, Valid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-Default_suite -->
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -127,117 +117,82 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.LoginTest" class="method navigator-link" hash-for-method="tc_001_verifyLoginPage">tc_001_verifyLoginPage</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.DashboardTest" class="method navigator-link" hash-for-method="tc_001_verifyDashboardUrl">tc_001_verifyDashboardUrl</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.LoginTest" class="method navigator-link" hash-for-method="tc_002_verifyUsernamePlaceholder">tc_002_verifyUsernamePlaceholder</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.DashboardTest" class="method navigator-link" hash-for-method="tc_002_verifyDashboardHeader">tc_002_verifyDashboardHeader</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.LoginTest" class="method navigator-link" hash-for-method="tc_003_verifyPasswordPlaceholder">tc_003_verifyPasswordPlaceholder</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.DashboardTest" class="method navigator-link" hash-for-method="tc_003_verifyMenuTabsDisplayed">tc_003_verifyMenuTabsDisplayed</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.LoginTest" class="method navigator-link" hash-for-method="tc_004_verifyUsernamePlaceholder">tc_004_verifyUsernamePlaceholder</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.DashboardTest" class="method navigator-link" hash-for-method="tc_004_verifyProfileDropdownOptions">tc_004_verifyProfileDropdownOptions</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.LoginTest" class="method navigator-link" hash-for-method="tc_005_verifyPasswordPlaceholder">tc_005_verifyPasswordPlaceholder</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.DashboardTest" class="method navigator-link" hash-for-method="tc_005_verifyLogoutFunctionality">tc_005_verifyLogoutFunctionality</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.LoginTest" class="method navigator-link" hash-for-method="tc_006_verifyLoginButtonEnabled">tc_006_verifyLoginButtonEnabled</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.DashboardTest" class="method navigator-link" hash-for-method="tc_006_verifyDashboardWidgets">tc_006_verifyDashboardWidgets</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.LoginTest" class="method navigator-link" hash-for-method="tc_007_verifyForgotPasswordLink">tc_007_verifyForgotPasswordLink</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.DashboardTest" class="method navigator-link" hash-for-method="tc_007_verifySearchTabEnabled">tc_007_verifySearchTabEnabled</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.LoginTest" class="method navigator-link" hash-for-method="tc_008_validateLoginBehavior(ADMIN, admin123, Valid)">tc_008_validateLoginBehavior(ADMIN, admin123, Valid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.DashboardTest" class="method navigator-link" hash-for-method="tc_008_verifySidebarToggle">tc_008_verifySidebarToggle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.LoginTest" class="method navigator-link" hash-for-method="tc_008_validateLoginBehavior(Admin, Admin123, Invalid)">tc_008_validateLoginBehavior(Admin, Admin123, Invalid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.DashboardTest" class="method navigator-link" hash-for-method="tc_009_verifyQuickLaunchOptions">tc_009_verifyQuickLaunchOptions</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.LoginTest" class="method navigator-link" hash-for-method="tc_008_validateLoginBehavior(Admin, admin123, Valid)">tc_008_validateLoginBehavior(Admin, admin123, Valid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.DashboardTest" class="method navigator-link" hash-for-method="tc_010_verifyHelpIconDisplayed">tc_010_verifyHelpIconDisplayed</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.LoginTest" class="method navigator-link" hash-for-method="tc_008_validateLoginBehavior(admin, admin123, Valid)">tc_008_validateLoginBehavior(admin, admin123, Valid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.DashboardTest" class="method navigator-link" hash-for-method="tc_011_verifyDashboardFooter">tc_011_verifyDashboardFooter</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.LoginTest" class="method navigator-link" hash-for-method="tc_008_validateLoginBehavior(Admin, admin123@, Invalid)">tc_008_validateLoginBehavior(Admin, admin123@, Invalid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.DashboardTest" class="method navigator-link" hash-for-method="tc_013_verifyQuickLaunchCardsEnabled">tc_013_verifyQuickLaunchCardsEnabled</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.LoginTest" class="method navigator-link" hash-for-method="tc_008_validateLoginBehavior(Admin, &#039;OR &#039;1&#039;=&#039;1, Invalid)">tc_008_validateLoginBehavior(Admin, 'OR '1'='1, Invalid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.DashboardTest" class="method navigator-link" hash-for-method="tc_014_verifyTimeClockIconEnabled">tc_014_verifyTimeClockIconEnabled</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.LoginTest" class="method navigator-link" hash-for-method="tc_008_validateLoginBehavior(Admin , wrong123, Invalid)">tc_008_validateLoginBehavior(Admin , wrong123, Invalid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.DashboardTest" class="method navigator-link" hash-for-method="tc_015_verifyEmployeeSubUnitsDisplayed">tc_015_verifyEmployeeSubUnitsDisplayed</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.LoginTest" class="method navigator-link" hash-for-method="tc_008_validateLoginBehavior(wrongUser, wrong123, Invalid)">tc_008_validateLoginBehavior(wrongUser, wrong123, Invalid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.DashboardTest" class="method navigator-link" hash-for-method="tc_016_verifyEmployeeLocationsDisplayed">tc_016_verifyEmployeeLocationsDisplayed</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.LoginTest" class="method navigator-link" hash-for-method="tc_009_verifyErrorMessageText(Admin , wrong123, Invalid)">tc_009_verifyErrorMessageText(Admin , wrong123, Invalid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.LoginTest" class="method navigator-link" hash-for-method="tc_009_verifyErrorMessageText(Admin, Admin123, Invalid)">tc_009_verifyErrorMessageText(Admin, Admin123, Invalid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.LoginTest" class="method navigator-link" hash-for-method="tc_009_verifyErrorMessageText(Admin, admin123@, Invalid)">tc_009_verifyErrorMessageText(Admin, admin123@, Invalid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.LoginTest" class="method navigator-link" hash-for-method="tc_009_verifyErrorMessageText(wrongUser, wrong123, Invalid)">tc_009_verifyErrorMessageText(wrongUser, wrong123, Invalid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.LoginTest" class="method navigator-link" hash-for-method="tc_009_verifyErrorMessageText(Admin, &#039;OR &#039;1&#039;=&#039;1, Invalid)">tc_009_verifyErrorMessageText(Admin, 'OR '1'='1, Invalid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.LoginTest" class="method navigator-link" hash-for-method="tc_010_verifyErrorForEmptyCredentials">tc_010_verifyErrorForEmptyCredentials</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.LoginTest" class="method navigator-link" hash-for-method="tc_011_verifySocialIconsDisplayed">tc_011_verifySocialIconsDisplayed</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.LoginTest" class="method navigator-link" hash-for-method="tc_012_verifyFooterText">tc_012_verifyFooterText</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.DashboardTest" class="method navigator-link" hash-for-method="tc_017_verifyUpgradeButtonDisplayed">tc_017_verifyUpgradeButtonDisplayed</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -252,96 +207,44 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-skipped">
+          <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">functionalTesting.LoginTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">functionalTesting.DashboardTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="tc_009_verifyErrorMessageText(admin, admin123, Valid)">
-                  </a> <!-- tc_009_verifyErrorMessageText(admin, admin123, Valid) -->
-                  <span class="method-name">tc_009_verifyErrorMessageText</span>
-                  <span class="parameters">(admin,admin123,Valid)</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping valid login case
-	at functionalTesting.LoginTest.tc_009_verifyErrorMessageText(LoginTest.java:84)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_009_verifyErrorMessageText(Admin, admin123, Valid)">
-                  </a> <!-- tc_009_verifyErrorMessageText(Admin, admin123, Valid) -->
-                  <span class="method-name">tc_009_verifyErrorMessageText</span>
-                  <span class="parameters">(Admin,admin123,Valid)</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping valid login case
-	at functionalTesting.LoginTest.tc_009_verifyErrorMessageText(LoginTest.java:84)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_009_verifyErrorMessageText(ADMIN, admin123, Valid)">
-                  </a> <!-- tc_009_verifyErrorMessageText(ADMIN, admin123, Valid) -->
-                  <span class="method-name">tc_009_verifyErrorMessageText</span>
-                  <span class="parameters">(ADMIN,admin123,Valid)</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping valid login case
-	at functionalTesting.LoginTest.tc_009_verifyErrorMessageText(LoginTest.java:84)
+                  <a name="tc_012_verifyMyActionsLinksDisplayed">
+                  </a> <!-- tc_012_verifyMyActionsLinksDisplayed -->
+                  <span class="method-name">tc_012_verifyMyActionsLinksDisplayed</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[contains(text(),&apos;Pending Self Review&apos;)]&quot;}
+  (Session info: chrome=143.0.7499.42)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [815cb687c44a3ba69201366aa9ac3f7d, findElement {value=//p[contains(text(),&apos;Pending Self Review&apos;)], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52286}, goog:processID: 24944, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52286/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 815cb687c44a3ba69201366aa9ac3f7d
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.isDisplayed(Unknown Source)
+	at functionalTesting.DashboardTest.tc_012_verifyMyActionsLinksDisplayed(DashboardTest.java:105)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -373,185 +276,123 @@
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-skipped -->
+          </div> <!-- suite-Default_suite-class-failed -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">functionalTesting.LoginTest</span>
+              <span class="class-name">functionalTesting.DashboardTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="tc_001_verifyLoginPage">
-                  </a> <!-- tc_001_verifyLoginPage -->
-                  <span class="method-name">tc_001_verifyLoginPage</span>
+                  <a name="tc_001_verifyDashboardUrl">
+                  </a> <!-- tc_001_verifyDashboardUrl -->
+                  <span class="method-name">tc_001_verifyDashboardUrl</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="tc_002_verifyUsernamePlaceholder">
-                  </a> <!-- tc_002_verifyUsernamePlaceholder -->
-                  <span class="method-name">tc_002_verifyUsernamePlaceholder</span>
+                  <a name="tc_002_verifyDashboardHeader">
+                  </a> <!-- tc_002_verifyDashboardHeader -->
+                  <span class="method-name">tc_002_verifyDashboardHeader</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="tc_003_verifyPasswordPlaceholder">
-                  </a> <!-- tc_003_verifyPasswordPlaceholder -->
-                  <span class="method-name">tc_003_verifyPasswordPlaceholder</span>
+                  <a name="tc_003_verifyMenuTabsDisplayed">
+                  </a> <!-- tc_003_verifyMenuTabsDisplayed -->
+                  <span class="method-name">tc_003_verifyMenuTabsDisplayed</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="tc_004_verifyUsernamePlaceholder">
-                  </a> <!-- tc_004_verifyUsernamePlaceholder -->
-                  <span class="method-name">tc_004_verifyUsernamePlaceholder</span>
+                  <a name="tc_004_verifyProfileDropdownOptions">
+                  </a> <!-- tc_004_verifyProfileDropdownOptions -->
+                  <span class="method-name">tc_004_verifyProfileDropdownOptions</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="tc_005_verifyPasswordPlaceholder">
-                  </a> <!-- tc_005_verifyPasswordPlaceholder -->
-                  <span class="method-name">tc_005_verifyPasswordPlaceholder</span>
+                  <a name="tc_005_verifyLogoutFunctionality">
+                  </a> <!-- tc_005_verifyLogoutFunctionality -->
+                  <span class="method-name">tc_005_verifyLogoutFunctionality</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="tc_006_verifyLoginButtonEnabled">
-                  </a> <!-- tc_006_verifyLoginButtonEnabled -->
-                  <span class="method-name">tc_006_verifyLoginButtonEnabled</span>
+                  <a name="tc_006_verifyDashboardWidgets">
+                  </a> <!-- tc_006_verifyDashboardWidgets -->
+                  <span class="method-name">tc_006_verifyDashboardWidgets</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="tc_007_verifyForgotPasswordLink">
-                  </a> <!-- tc_007_verifyForgotPasswordLink -->
-                  <span class="method-name">tc_007_verifyForgotPasswordLink</span>
+                  <a name="tc_007_verifySearchTabEnabled">
+                  </a> <!-- tc_007_verifySearchTabEnabled -->
+                  <span class="method-name">tc_007_verifySearchTabEnabled</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="tc_008_validateLoginBehavior(ADMIN, admin123, Valid)">
-                  </a> <!-- tc_008_validateLoginBehavior(ADMIN, admin123, Valid) -->
-                  <span class="method-name">tc_008_validateLoginBehavior</span>
-                  <span class="parameters">(ADMIN,admin123,Valid)</span>
+                  <a name="tc_008_verifySidebarToggle">
+                  </a> <!-- tc_008_verifySidebarToggle -->
+                  <span class="method-name">tc_008_verifySidebarToggle</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="tc_008_validateLoginBehavior(Admin, Admin123, Invalid)">
-                  </a> <!-- tc_008_validateLoginBehavior(Admin, Admin123, Invalid) -->
-                  <span class="method-name">tc_008_validateLoginBehavior</span>
-                  <span class="parameters">(Admin,Admin123,Invalid)</span>
+                  <a name="tc_009_verifyQuickLaunchOptions">
+                  </a> <!-- tc_009_verifyQuickLaunchOptions -->
+                  <span class="method-name">tc_009_verifyQuickLaunchOptions</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="tc_008_validateLoginBehavior(Admin, admin123, Valid)">
-                  </a> <!-- tc_008_validateLoginBehavior(Admin, admin123, Valid) -->
-                  <span class="method-name">tc_008_validateLoginBehavior</span>
-                  <span class="parameters">(Admin,admin123,Valid)</span>
+                  <a name="tc_010_verifyHelpIconDisplayed">
+                  </a> <!-- tc_010_verifyHelpIconDisplayed -->
+                  <span class="method-name">tc_010_verifyHelpIconDisplayed</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="tc_008_validateLoginBehavior(admin, admin123, Valid)">
-                  </a> <!-- tc_008_validateLoginBehavior(admin, admin123, Valid) -->
-                  <span class="method-name">tc_008_validateLoginBehavior</span>
-                  <span class="parameters">(admin,admin123,Valid)</span>
+                  <a name="tc_011_verifyDashboardFooter">
+                  </a> <!-- tc_011_verifyDashboardFooter -->
+                  <span class="method-name">tc_011_verifyDashboardFooter</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="tc_008_validateLoginBehavior(Admin, admin123@, Invalid)">
-                  </a> <!-- tc_008_validateLoginBehavior(Admin, admin123@, Invalid) -->
-                  <span class="method-name">tc_008_validateLoginBehavior</span>
-                  <span class="parameters">(Admin,admin123@,Invalid)</span>
+                  <a name="tc_013_verifyQuickLaunchCardsEnabled">
+                  </a> <!-- tc_013_verifyQuickLaunchCardsEnabled -->
+                  <span class="method-name">tc_013_verifyQuickLaunchCardsEnabled</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="tc_008_validateLoginBehavior(Admin, &#039;OR &#039;1&#039;=&#039;1, Invalid)">
-                  </a> <!-- tc_008_validateLoginBehavior(Admin, 'OR '1'='1, Invalid) -->
-                  <span class="method-name">tc_008_validateLoginBehavior</span>
-                  <span class="parameters">(Admin,'OR '1'='1,Invalid)</span>
+                  <a name="tc_014_verifyTimeClockIconEnabled">
+                  </a> <!-- tc_014_verifyTimeClockIconEnabled -->
+                  <span class="method-name">tc_014_verifyTimeClockIconEnabled</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="tc_008_validateLoginBehavior(Admin , wrong123, Invalid)">
-                  </a> <!-- tc_008_validateLoginBehavior(Admin , wrong123, Invalid) -->
-                  <span class="method-name">tc_008_validateLoginBehavior</span>
-                  <span class="parameters">(Admin ,wrong123,Invalid)</span>
+                  <a name="tc_015_verifyEmployeeSubUnitsDisplayed">
+                  </a> <!-- tc_015_verifyEmployeeSubUnitsDisplayed -->
+                  <span class="method-name">tc_015_verifyEmployeeSubUnitsDisplayed</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="tc_008_validateLoginBehavior(wrongUser, wrong123, Invalid)">
-                  </a> <!-- tc_008_validateLoginBehavior(wrongUser, wrong123, Invalid) -->
-                  <span class="method-name">tc_008_validateLoginBehavior</span>
-                  <span class="parameters">(wrongUser,wrong123,Invalid)</span>
+                  <a name="tc_016_verifyEmployeeLocationsDisplayed">
+                  </a> <!-- tc_016_verifyEmployeeLocationsDisplayed -->
+                  <span class="method-name">tc_016_verifyEmployeeLocationsDisplayed</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="tc_009_verifyErrorMessageText(Admin , wrong123, Invalid)">
-                  </a> <!-- tc_009_verifyErrorMessageText(Admin , wrong123, Invalid) -->
-                  <span class="method-name">tc_009_verifyErrorMessageText</span>
-                  <span class="parameters">(Admin ,wrong123,Invalid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_009_verifyErrorMessageText(Admin, Admin123, Invalid)">
-                  </a> <!-- tc_009_verifyErrorMessageText(Admin, Admin123, Invalid) -->
-                  <span class="method-name">tc_009_verifyErrorMessageText</span>
-                  <span class="parameters">(Admin,Admin123,Invalid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_009_verifyErrorMessageText(Admin, admin123@, Invalid)">
-                  </a> <!-- tc_009_verifyErrorMessageText(Admin, admin123@, Invalid) -->
-                  <span class="method-name">tc_009_verifyErrorMessageText</span>
-                  <span class="parameters">(Admin,admin123@,Invalid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_009_verifyErrorMessageText(wrongUser, wrong123, Invalid)">
-                  </a> <!-- tc_009_verifyErrorMessageText(wrongUser, wrong123, Invalid) -->
-                  <span class="method-name">tc_009_verifyErrorMessageText</span>
-                  <span class="parameters">(wrongUser,wrong123,Invalid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_009_verifyErrorMessageText(Admin, &#039;OR &#039;1&#039;=&#039;1, Invalid)">
-                  </a> <!-- tc_009_verifyErrorMessageText(Admin, 'OR '1'='1, Invalid) -->
-                  <span class="method-name">tc_009_verifyErrorMessageText</span>
-                  <span class="parameters">(Admin,'OR '1'='1,Invalid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_010_verifyErrorForEmptyCredentials">
-                  </a> <!-- tc_010_verifyErrorForEmptyCredentials -->
-                  <span class="method-name">tc_010_verifyErrorForEmptyCredentials</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_011_verifySocialIconsDisplayed">
-                  </a> <!-- tc_011_verifySocialIconsDisplayed -->
-                  <span class="method-name">tc_011_verifySocialIconsDisplayed</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_012_verifyFooterText">
-                  </a> <!-- tc_012_verifyFooterText -->
-                  <span class="method-name">tc_012_verifyFooterText</span>
+                  <a name="tc_017_verifyUpgradeButtonDisplayed">
+                  </a> <!-- tc_017_verifyUpgradeButtonDisplayed -->
+                  <span class="method-name">tc_017_verifyUpgradeButtonDisplayed</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -559,7 +400,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\rosha\AppData\Local\Temp\testng-eclipse--1193706436\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\rosha\AppData\Local\Temp\testng-eclipse-1858057262\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -568,7 +409,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;functionalTesting.LoginTest&quot;/&gt;
+      &lt;class name=&quot;functionalTesting.DashboardTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -608,116 +449,80 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(26);
+data.addRows(17);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'tc_008_validateLoginBehavior')
-data.setCell(0, 2, 'functionalTesting.LoginTest')
-data.setCell(0, 3, 6909);
+data.setCell(0, 1, 'tc_012_verifyMyActionsLinksDisplayed')
+data.setCell(0, 2, 'functionalTesting.DashboardTest')
+data.setCell(0, 3, 10020);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'tc_008_validateLoginBehavior')
-data.setCell(1, 2, 'functionalTesting.LoginTest')
-data.setCell(1, 3, 6501);
+data.setCell(1, 1, 'tc_005_verifyLogoutFunctionality')
+data.setCell(1, 2, 'functionalTesting.DashboardTest')
+data.setCell(1, 3, 3963);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'tc_008_validateLoginBehavior')
-data.setCell(2, 2, 'functionalTesting.LoginTest')
-data.setCell(2, 3, 4915);
+data.setCell(2, 1, 'tc_013_verifyQuickLaunchCardsEnabled')
+data.setCell(2, 2, 'functionalTesting.DashboardTest')
+data.setCell(2, 3, 2679);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'tc_009_verifyErrorMessageText')
-data.setCell(3, 2, 'functionalTesting.LoginTest')
-data.setCell(3, 3, 3485);
+data.setCell(3, 1, 'tc_016_verifyEmployeeLocationsDisplayed')
+data.setCell(3, 2, 'functionalTesting.DashboardTest')
+data.setCell(3, 3, 2387);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'tc_008_validateLoginBehavior')
-data.setCell(4, 2, 'functionalTesting.LoginTest')
-data.setCell(4, 3, 3343);
+data.setCell(4, 1, 'tc_015_verifyEmployeeSubUnitsDisplayed')
+data.setCell(4, 2, 'functionalTesting.DashboardTest')
+data.setCell(4, 3, 1817);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'tc_009_verifyErrorMessageText')
-data.setCell(5, 2, 'functionalTesting.LoginTest')
-data.setCell(5, 3, 2832);
+data.setCell(5, 1, 'tc_009_verifyQuickLaunchOptions')
+data.setCell(5, 2, 'functionalTesting.DashboardTest')
+data.setCell(5, 3, 1337);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'tc_009_verifyErrorMessageText')
-data.setCell(6, 2, 'functionalTesting.LoginTest')
-data.setCell(6, 3, 2820);
+data.setCell(6, 1, 'tc_014_verifyTimeClockIconEnabled')
+data.setCell(6, 2, 'functionalTesting.DashboardTest')
+data.setCell(6, 3, 1290);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'tc_009_verifyErrorMessageText')
-data.setCell(7, 2, 'functionalTesting.LoginTest')
-data.setCell(7, 3, 2769);
+data.setCell(7, 1, 'tc_003_verifyMenuTabsDisplayed')
+data.setCell(7, 2, 'functionalTesting.DashboardTest')
+data.setCell(7, 3, 1257);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'tc_008_validateLoginBehavior')
-data.setCell(8, 2, 'functionalTesting.LoginTest')
-data.setCell(8, 3, 2696);
+data.setCell(8, 1, 'tc_006_verifyDashboardWidgets')
+data.setCell(8, 2, 'functionalTesting.DashboardTest')
+data.setCell(8, 3, 956);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'tc_008_validateLoginBehavior')
-data.setCell(9, 2, 'functionalTesting.LoginTest')
-data.setCell(9, 3, 2683);
+data.setCell(9, 1, 'tc_004_verifyProfileDropdownOptions')
+data.setCell(9, 2, 'functionalTesting.DashboardTest')
+data.setCell(9, 3, 890);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'tc_008_validateLoginBehavior')
-data.setCell(10, 2, 'functionalTesting.LoginTest')
-data.setCell(10, 3, 2660);
+data.setCell(10, 1, 'tc_011_verifyDashboardFooter')
+data.setCell(10, 2, 'functionalTesting.DashboardTest')
+data.setCell(10, 3, 766);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'tc_009_verifyErrorMessageText')
-data.setCell(11, 2, 'functionalTesting.LoginTest')
-data.setCell(11, 3, 2532);
+data.setCell(11, 1, 'tc_008_verifySidebarToggle')
+data.setCell(11, 2, 'functionalTesting.DashboardTest')
+data.setCell(11, 3, 688);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'tc_008_validateLoginBehavior')
-data.setCell(12, 2, 'functionalTesting.LoginTest')
-data.setCell(12, 3, 2237);
+data.setCell(12, 1, 'tc_002_verifyDashboardHeader')
+data.setCell(12, 2, 'functionalTesting.DashboardTest')
+data.setCell(12, 3, 664);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'tc_002_verifyUsernamePlaceholder')
-data.setCell(13, 2, 'functionalTesting.LoginTest')
-data.setCell(13, 3, 1099);
+data.setCell(13, 1, 'tc_010_verifyHelpIconDisplayed')
+data.setCell(13, 2, 'functionalTesting.DashboardTest')
+data.setCell(13, 3, 647);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'tc_010_verifyErrorForEmptyCredentials')
-data.setCell(14, 2, 'functionalTesting.LoginTest')
-data.setCell(14, 3, 988);
+data.setCell(14, 1, 'tc_017_verifyUpgradeButtonDisplayed')
+data.setCell(14, 2, 'functionalTesting.DashboardTest')
+data.setCell(14, 3, 633);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'tc_005_verifyPasswordPlaceholder')
-data.setCell(15, 2, 'functionalTesting.LoginTest')
-data.setCell(15, 3, 949);
+data.setCell(15, 1, 'tc_007_verifySearchTabEnabled')
+data.setCell(15, 2, 'functionalTesting.DashboardTest')
+data.setCell(15, 3, 613);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'tc_001_verifyLoginPage')
-data.setCell(16, 2, 'functionalTesting.LoginTest')
-data.setCell(16, 3, 936);
-data.setCell(17, 0, 17)
-data.setCell(17, 1, 'tc_007_verifyForgotPasswordLink')
-data.setCell(17, 2, 'functionalTesting.LoginTest')
-data.setCell(17, 3, 906);
-data.setCell(18, 0, 18)
-data.setCell(18, 1, 'tc_012_verifyFooterText')
-data.setCell(18, 2, 'functionalTesting.LoginTest')
-data.setCell(18, 3, 864);
-data.setCell(19, 0, 19)
-data.setCell(19, 1, 'tc_011_verifySocialIconsDisplayed')
-data.setCell(19, 2, 'functionalTesting.LoginTest')
-data.setCell(19, 3, 713);
-data.setCell(20, 0, 20)
-data.setCell(20, 1, 'tc_004_verifyUsernamePlaceholder')
-data.setCell(20, 2, 'functionalTesting.LoginTest')
-data.setCell(20, 3, 642);
-data.setCell(21, 0, 21)
-data.setCell(21, 1, 'tc_006_verifyLoginButtonEnabled')
-data.setCell(21, 2, 'functionalTesting.LoginTest')
-data.setCell(21, 3, 613);
-data.setCell(22, 0, 22)
-data.setCell(22, 1, 'tc_003_verifyPasswordPlaceholder')
-data.setCell(22, 2, 'functionalTesting.LoginTest')
-data.setCell(22, 3, 593);
-data.setCell(23, 0, 23)
-data.setCell(23, 1, 'tc_009_verifyErrorMessageText')
-data.setCell(23, 2, 'functionalTesting.LoginTest')
-data.setCell(23, 3, 3);
-data.setCell(24, 0, 24)
-data.setCell(24, 1, 'tc_009_verifyErrorMessageText')
-data.setCell(24, 2, 'functionalTesting.LoginTest')
-data.setCell(24, 3, 1);
-data.setCell(25, 0, 25)
-data.setCell(25, 1, 'tc_009_verifyErrorMessageText')
-data.setCell(25, 2, 'functionalTesting.LoginTest')
-data.setCell(25, 3, 1);
+data.setCell(16, 1, 'tc_001_verifyDashboardUrl')
+data.setCell(16, 2, 'functionalTesting.DashboardTest')
+data.setCell(16, 3, 27);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 54 seconds</span>
+              <span class="suite-total-time">Total running time: 30 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -728,162 +533,6 @@ return data;
             <span class="header-content">Reporter output for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_012_verifyFooterText</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_012_verifyFooterText is onTestStart</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_008_validateLoginBehavior(ADMIN, admin123, Valid)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_008_validateLoginBehavior is onTestStart</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_008_validateLoginBehavior(Admin, Admin123, Invalid)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_008_validateLoginBehavior is onTestStart</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_006_verifyLoginButtonEnabled</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_006_verifyLoginButtonEnabled is onTestStart</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_008_validateLoginBehavior(Admin, admin123, Valid)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_008_validateLoginBehavior is onTestStart</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_008_validateLoginBehavior(admin, admin123, Valid)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_008_validateLoginBehavior is onTestStart</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_009_verifyErrorMessageText(Admin , wrong123, Invalid)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_009_verifyErrorMessageText is onTestStart</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_009_verifyErrorMessageText(Admin, Admin123, Invalid)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_009_verifyErrorMessageText is onTestStart</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_003_verifyPasswordPlaceholder</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_003_verifyPasswordPlaceholder is onTestStart</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_002_verifyUsernamePlaceholder</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_002_verifyUsernamePlaceholder is onTestStart</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_004_verifyUsernamePlaceholder</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_004_verifyUsernamePlaceholder is onTestStart</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_007_verifyForgotPasswordLink</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_007_verifyForgotPasswordLink is onTestStart</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_001_verifyLoginPage</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_001_verifyLoginPage is onTestStart</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_005_verifyPasswordPlaceholder</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_005_verifyPasswordPlaceholder is onTestStart</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_008_validateLoginBehavior(Admin, admin123@, Invalid)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_008_validateLoginBehavior is onTestStart</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_009_verifyErrorMessageText(Admin, admin123@, Invalid)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_009_verifyErrorMessageText is onTestStart</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_008_validateLoginBehavior(Admin, 'OR '1'='1, Invalid)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_008_validateLoginBehavior is onTestStart</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_009_verifyErrorMessageText(wrongUser, wrong123, Invalid)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_009_verifyErrorMessageText is onTestStart</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_008_validateLoginBehavior(Admin , wrong123, Invalid)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_008_validateLoginBehavior is onTestStart</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_008_validateLoginBehavior(wrongUser, wrong123, Invalid)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_008_validateLoginBehavior is onTestStart</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_009_verifyErrorMessageText(Admin, 'OR '1'='1, Invalid)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_009_verifyErrorMessageText is onTestStart</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_010_verifyErrorForEmptyCredentials</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_010_verifyErrorForEmptyCredentials is onTestStart</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_011_verifySocialIconsDisplayed</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_011_verifySocialIconsDisplayed is onTestStart</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_009_verifyErrorMessageText(admin, admin123, Valid)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_009_verifyErrorMessageText is onTestStart</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_009_verifyErrorMessageText(Admin, admin123, Valid)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_009_verifyErrorMessageText is onTestStart</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_009_verifyErrorMessageText(ADMIN, admin123, Valid)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_009_verifyErrorMessageText is onTestStart</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
@@ -899,318 +548,212 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">functionalTesting.LoginTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">functionalTesting.DashboardTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">tc_001_verifyLoginPage</span>
-                <span class="method-start">6431 ms</span>
+                <span class="method-name">tc_001_verifyDashboardUrl</span>
+                <span class="method-start">13275 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postcondition</span>
-                <span class="method-start">7378 ms</span>
+                <span class="method-start">13307 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">7581 ms</span>
+                <span class="method-start">13578 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">tc_002_verifyUsernamePlaceholder</span>
-                <span class="method-start">13727 ms</span>
+                <span class="method-name">tc_002_verifyDashboardHeader</span>
+                <span class="method-start">22658 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postcondition</span>
-                <span class="method-start">14828 ms</span>
+                <span class="method-start">23325 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">15003 ms</span>
+                <span class="method-start">23640 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">tc_003_verifyPasswordPlaceholder</span>
-                <span class="method-start">19804 ms</span>
+                <span class="method-name">tc_003_verifyMenuTabsDisplayed</span>
+                <span class="method-start">31952 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postcondition</span>
-                <span class="method-start">20397 ms</span>
+                <span class="method-start">33217 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">20569 ms</span>
+                <span class="method-start">33478 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">tc_004_verifyUsernamePlaceholder</span>
-                <span class="method-start">25018 ms</span>
+                <span class="method-name">tc_004_verifyProfileDropdownOptions</span>
+                <span class="method-start">41912 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postcondition</span>
-                <span class="method-start">25663 ms</span>
+                <span class="method-start">42805 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">25833 ms</span>
+                <span class="method-start">43048 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">tc_005_verifyPasswordPlaceholder</span>
-                <span class="method-start">30639 ms</span>
+                <span class="method-name">tc_005_verifyLogoutFunctionality</span>
+                <span class="method-start">51813 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postcondition</span>
-                <span class="method-start">31592 ms</span>
+                <span class="method-start">55776 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">31782 ms</span>
+                <span class="method-start">56057 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">tc_006_verifyLoginButtonEnabled</span>
-                <span class="method-start">36272 ms</span>
+                <span class="method-name">tc_006_verifyDashboardWidgets</span>
+                <span class="method-start">65583 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postcondition</span>
-                <span class="method-start">36887 ms</span>
+                <span class="method-start">66541 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">37056 ms</span>
+                <span class="method-start">66755 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">tc_007_verifyForgotPasswordLink</span>
-                <span class="method-start">41902 ms</span>
+                <span class="method-name">tc_007_verifySearchTabEnabled</span>
+                <span class="method-start">75612 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postcondition</span>
-                <span class="method-start">42808 ms</span>
+                <span class="method-start">76227 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">43957 ms</span>
+                <span class="method-start">76450 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">tc_008_validateLoginBehavior(Admin, admin123, Valid)</span>
-                <span class="method-start">48435 ms</span>
+                <span class="method-name">tc_008_verifySidebarToggle</span>
+                <span class="method-start">84916 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postcondition</span>
-                <span class="method-start">51120 ms</span>
+                <span class="method-start">85609 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">51294 ms</span>
+                <span class="method-start">85855 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">tc_008_validateLoginBehavior(Admin , wrong123, Invalid)</span>
-                <span class="method-start">55574 ms</span>
+                <span class="method-name">tc_009_verifyQuickLaunchOptions</span>
+                <span class="method-start">95178 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postcondition</span>
-                <span class="method-start">62077 ms</span>
+                <span class="method-start">96521 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">62266 ms</span>
+                <span class="method-start">96804 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">tc_008_validateLoginBehavior(wrongUser, wrong123, Invalid)</span>
-                <span class="method-start">66980 ms</span>
+                <span class="method-name">tc_010_verifyHelpIconDisplayed</span>
+                <span class="method-start">105733 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postcondition</span>
-                <span class="method-start">69676 ms</span>
+                <span class="method-start">106380 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">69852 ms</span>
+                <span class="method-start">106641 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">tc_008_validateLoginBehavior(ADMIN, admin123, Valid)</span>
-                <span class="method-start">74623 ms</span>
+                <span class="method-name">tc_011_verifyDashboardFooter</span>
+                <span class="method-start">115957 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postcondition</span>
-                <span class="method-start">77968 ms</span>
+                <span class="method-start">116725 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">78138 ms</span>
+                <span class="method-start">116956 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">tc_008_validateLoginBehavior(admin, admin123, Valid)</span>
-                <span class="method-start">82736 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc_012_verifyMyActionsLinksDisplayed</span>
+                <span class="method-start">125688 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postcondition</span>
-                <span class="method-start">84974 ms</span>
+                <span class="method-start">135714 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">85158 ms</span>
+                <span class="method-start">136207 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">tc_008_validateLoginBehavior(Admin, Admin123, Invalid)</span>
-                <span class="method-start">89866 ms</span>
+                <span class="method-name">tc_013_verifyQuickLaunchCardsEnabled</span>
+                <span class="method-start">145595 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postcondition</span>
-                <span class="method-start">92527 ms</span>
+                <span class="method-start">148276 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">92714 ms</span>
+                <span class="method-start">148555 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">tc_008_validateLoginBehavior(Admin, 'OR '1'='1, Invalid)</span>
-                <span class="method-start">97334 ms</span>
+                <span class="method-name">tc_014_verifyTimeClockIconEnabled</span>
+                <span class="method-start">157232 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postcondition</span>
-                <span class="method-start">104244 ms</span>
+                <span class="method-start">158524 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">104432 ms</span>
+                <span class="method-start">158814 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">tc_008_validateLoginBehavior(Admin, admin123@, Invalid)</span>
-                <span class="method-start">120331 ms</span>
+                <span class="method-name">tc_015_verifyEmployeeSubUnitsDisplayed</span>
+                <span class="method-start">167928 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postcondition</span>
-                <span class="method-start">125248 ms</span>
+                <span class="method-start">169747 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">126129 ms</span>
+                <span class="method-start">170020 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">tc_009_verifyErrorMessageText(Admin, admin123, Valid)</span>
-                <span class="method-start">130408 ms</span>
+                <span class="method-name">tc_016_verifyEmployeeLocationsDisplayed</span>
+                <span class="method-start">179372 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postcondition</span>
-                <span class="method-start">130413 ms</span>
+                <span class="method-start">181761 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">130582 ms</span>
+                <span class="method-start">182035 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">tc_009_verifyErrorMessageText(Admin , wrong123, Invalid)</span>
-                <span class="method-start">135643 ms</span>
+                <span class="method-name">tc_017_verifyUpgradeButtonDisplayed</span>
+                <span class="method-start">191081 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postcondition</span>
-                <span class="method-start">138414 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">precondition</span>
-                <span class="method-start">138583 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">tc_009_verifyErrorMessageText(wrongUser, wrong123, Invalid)</span>
-                <span class="method-start">142900 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">postcondition</span>
-                <span class="method-start">145732 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">precondition</span>
-                <span class="method-start">145916 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">tc_009_verifyErrorMessageText(ADMIN, admin123, Valid)</span>
-                <span class="method-start">150196 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">postcondition</span>
-                <span class="method-start">150199 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">precondition</span>
-                <span class="method-start">150377 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">tc_009_verifyErrorMessageText(admin, admin123, Valid)</span>
-                <span class="method-start">155319 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">postcondition</span>
-                <span class="method-start">155321 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">precondition</span>
-                <span class="method-start">155502 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">tc_009_verifyErrorMessageText(Admin, Admin123, Invalid)</span>
-                <span class="method-start">160328 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">postcondition</span>
-                <span class="method-start">163149 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">precondition</span>
-                <span class="method-start">163339 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">tc_009_verifyErrorMessageText(Admin, 'OR '1'='1, Invalid)</span>
-                <span class="method-start">167881 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">postcondition</span>
-                <span class="method-start">171368 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">precondition</span>
-                <span class="method-start">171556 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">tc_009_verifyErrorMessageText(Admin, admin123@, Invalid)</span>
-                <span class="method-start">176210 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">postcondition</span>
-                <span class="method-start">178743 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">precondition</span>
-                <span class="method-start">178918 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">tc_010_verifyErrorForEmptyCredentials</span>
-                <span class="method-start">183303 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">postcondition</span>
-                <span class="method-start">184291 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">precondition</span>
-                <span class="method-start">184472 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">tc_011_verifySocialIconsDisplayed</span>
-                <span class="method-start">189558 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">postcondition</span>
-                <span class="method-start">190275 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">precondition</span>
-                <span class="method-start">190462 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">tc_012_verifyFooterText</span>
-                <span class="method-start">195312 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">postcondition</span>
-                <span class="method-start">196176 ms</span>
+                <span class="method-start">191715 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
