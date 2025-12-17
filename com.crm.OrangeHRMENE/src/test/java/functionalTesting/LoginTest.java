@@ -48,7 +48,7 @@ public class LoginTest extends LoginBase {
 	public void tc_005_verifyPasswordPlaceholder() {
 	    Login log = new Login(driver);
 	    String placeholder = log.getPassword().getAttribute("placeholder");
-	    Assert.assertTrue(placeholder.equalsIgnoreCase("password"), "Password placeholder mismatch");
+	    Assert.assertTrue(placeholder.equalsIgnoreCase("Password"), "Password placeholder mismatch");
 	}
 	
 	@Test(priority = 5)
