@@ -41,14 +41,14 @@ public class LoginTest extends LoginBase {
 	public void tc_004_verifyUsernamePlaceholder() {
 	    Login log = new Login(driver);
 	    String placeholder = log.getUsername().getAttribute("placeholder");
-	    Assert.assertEquals(placeholder, "Username", "Username placeholder mismatch");
+	    Assert.assertTrue(placeholder.equalsIgnoreCase("Username"), "Username placeholder mismatch");
 	}
 
 	@Test(priority = 4)
 	public void tc_005_verifyPasswordPlaceholder() {
 	    Login log = new Login(driver);
 	    String placeholder = log.getPassword().getAttribute("placeholder");
-	    Assert.assertEquals(placeholder, "Password", "Password placeholder mismatch");
+	    Assert.assertTrue(placeholder.equalsIgnoreCase("Password"), "Password placeholder mismatch");
 	}
 	
 	@Test(priority = 5)

@@ -83,121 +83,121 @@
       <![CDATA[tc_012_verifyFooterText is onTestStart]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-12-17T02:47:54 IST" name="Default suite" finished-at="2025-12-17T02:50:49 IST" duration-ms="175088">
+  <suite started-at="2025-12-17T12:03:21 IST" name="Default suite" finished-at="2025-12-17T12:06:38 IST" duration-ms="196745">
     <groups>
     </groups>
-    <test started-at="2025-12-17T02:47:54 IST" name="Default test" finished-at="2025-12-17T02:50:49 IST" duration-ms="175088">
+    <test started-at="2025-12-17T12:03:21 IST" name="Default test" finished-at="2025-12-17T12:06:38 IST" duration-ms="196745">
       <class name="functionalTesting.LoginTest">
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:47:54 IST" name="precondition" finished-at="2025-12-17T02:48:00 IST" duration-ms="5312" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:03:21 IST" name="precondition" finished-at="2025-12-17T12:03:28 IST" duration-ms="6429" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_001_verifyLoginPage()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:00 IST" name="tc_001_verifyLoginPage" finished-at="2025-12-17T02:48:00 IST" duration-ms="592" status="PASS">
+        <test-method signature="tc_001_verifyLoginPage()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:03:28 IST" name="tc_001_verifyLoginPage" finished-at="2025-12-17T12:03:29 IST" duration-ms="936" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[tc_001_verifyLoginPage is onTestStart]]>
             </line>
           </reporter-output>
         </test-method> <!-- tc_001_verifyLoginPage -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:00 IST" name="postcondition" finished-at="2025-12-17T02:48:00 IST" duration-ms="193" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:03:29 IST" name="postcondition" finished-at="2025-12-17T12:03:29 IST" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:00 IST" name="precondition" finished-at="2025-12-17T02:48:06 IST" duration-ms="5511" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:03:29 IST" name="precondition" finished-at="2025-12-17T12:03:35 IST" duration-ms="6146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_002_verifyUsernamePlaceholder()[pri:1, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:06 IST" name="tc_002_verifyUsernamePlaceholder" finished-at="2025-12-17T02:48:06 IST" duration-ms="559" status="PASS">
+        <test-method signature="tc_002_verifyUsernamePlaceholder()[pri:1, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:03:35 IST" name="tc_002_verifyUsernamePlaceholder" finished-at="2025-12-17T12:03:36 IST" duration-ms="1099" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[tc_002_verifyUsernamePlaceholder is onTestStart]]>
             </line>
           </reporter-output>
         </test-method> <!-- tc_002_verifyUsernamePlaceholder -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:06 IST" name="postcondition" finished-at="2025-12-17T02:48:07 IST" duration-ms="180" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:03:36 IST" name="postcondition" finished-at="2025-12-17T12:03:36 IST" duration-ms="174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:07 IST" name="precondition" finished-at="2025-12-17T02:48:11 IST" duration-ms="4347" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:03:36 IST" name="precondition" finished-at="2025-12-17T12:03:41 IST" duration-ms="4801" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_003_verifyPasswordPlaceholder()[pri:2, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:11 IST" name="tc_003_verifyPasswordPlaceholder" finished-at="2025-12-17T02:48:12 IST" duration-ms="677" status="PASS">
+        <test-method signature="tc_003_verifyPasswordPlaceholder()[pri:2, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:03:41 IST" name="tc_003_verifyPasswordPlaceholder" finished-at="2025-12-17T12:03:42 IST" duration-ms="593" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[tc_003_verifyPasswordPlaceholder is onTestStart]]>
             </line>
           </reporter-output>
         </test-method> <!-- tc_003_verifyPasswordPlaceholder -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:12 IST" name="postcondition" finished-at="2025-12-17T02:48:12 IST" duration-ms="193" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:03:42 IST" name="postcondition" finished-at="2025-12-17T12:03:42 IST" duration-ms="171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:12 IST" name="precondition" finished-at="2025-12-17T02:48:17 IST" duration-ms="4732" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:03:42 IST" name="precondition" finished-at="2025-12-17T12:03:46 IST" duration-ms="4449" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_004_verifyUsernamePlaceholder()[pri:3, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:17 IST" name="tc_004_verifyUsernamePlaceholder" finished-at="2025-12-17T02:48:19 IST" duration-ms="2861" status="PASS">
+        <test-method signature="tc_004_verifyUsernamePlaceholder()[pri:3, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:03:46 IST" name="tc_004_verifyUsernamePlaceholder" finished-at="2025-12-17T12:03:47 IST" duration-ms="642" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[tc_004_verifyUsernamePlaceholder is onTestStart]]>
             </line>
           </reporter-output>
         </test-method> <!-- tc_004_verifyUsernamePlaceholder -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:19 IST" name="postcondition" finished-at="2025-12-17T02:48:20 IST" duration-ms="207" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:03:47 IST" name="postcondition" finished-at="2025-12-17T12:03:47 IST" duration-ms="169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:20 IST" name="precondition" finished-at="2025-12-17T02:48:24 IST" duration-ms="4678" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:03:47 IST" name="precondition" finished-at="2025-12-17T12:03:52 IST" duration-ms="4806" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_005_verifyPasswordPlaceholder()[pri:4, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:24 IST" name="tc_005_verifyPasswordPlaceholder" finished-at="2025-12-17T02:48:25 IST" duration-ms="756" status="PASS">
+        <test-method signature="tc_005_verifyPasswordPlaceholder()[pri:4, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:03:52 IST" name="tc_005_verifyPasswordPlaceholder" finished-at="2025-12-17T12:03:53 IST" duration-ms="949" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[tc_005_verifyPasswordPlaceholder is onTestStart]]>
             </line>
           </reporter-output>
         </test-method> <!-- tc_005_verifyPasswordPlaceholder -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:25 IST" name="postcondition" finished-at="2025-12-17T02:48:25 IST" duration-ms="191" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:03:53 IST" name="postcondition" finished-at="2025-12-17T12:03:53 IST" duration-ms="189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:25 IST" name="precondition" finished-at="2025-12-17T02:48:30 IST" duration-ms="5125" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:03:53 IST" name="precondition" finished-at="2025-12-17T12:03:57 IST" duration-ms="4490" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_006_verifyLoginButtonEnabled()[pri:5, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:30 IST" name="tc_006_verifyLoginButtonEnabled" finished-at="2025-12-17T02:48:31 IST" duration-ms="547" status="PASS">
+        <test-method signature="tc_006_verifyLoginButtonEnabled()[pri:5, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:03:57 IST" name="tc_006_verifyLoginButtonEnabled" finished-at="2025-12-17T12:03:58 IST" duration-ms="613" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[tc_006_verifyLoginButtonEnabled is onTestStart]]>
             </line>
           </reporter-output>
         </test-method> <!-- tc_006_verifyLoginButtonEnabled -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:31 IST" name="postcondition" finished-at="2025-12-17T02:48:31 IST" duration-ms="190" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:03:58 IST" name="postcondition" finished-at="2025-12-17T12:03:58 IST" duration-ms="168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:31 IST" name="precondition" finished-at="2025-12-17T02:48:36 IST" duration-ms="4771" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:03:58 IST" name="precondition" finished-at="2025-12-17T12:04:03 IST" duration-ms="4846" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_007_verifyForgotPasswordLink()[pri:6, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:36 IST" name="tc_007_verifyForgotPasswordLink" finished-at="2025-12-17T02:48:37 IST" duration-ms="1128" status="PASS">
+        <test-method signature="tc_007_verifyForgotPasswordLink()[pri:6, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:04:03 IST" name="tc_007_verifyForgotPasswordLink" finished-at="2025-12-17T12:04:04 IST" duration-ms="906" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[tc_007_verifyForgotPasswordLink is onTestStart]]>
             </line>
           </reporter-output>
         </test-method> <!-- tc_007_verifyForgotPasswordLink -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:37 IST" name="postcondition" finished-at="2025-12-17T02:48:37 IST" duration-ms="183" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:04:04 IST" name="postcondition" finished-at="2025-12-17T12:04:04 IST" duration-ms="186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:38 IST" name="precondition" finished-at="2025-12-17T02:48:43 IST" duration-ms="4797" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:04:05 IST" name="precondition" finished-at="2025-12-17T12:04:10 IST" duration-ms="4478" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_008_validateLoginBehavior(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:43 IST" name="tc_008_validateLoginBehavior" data-provider="loginData" finished-at="2025-12-17T02:48:46 IST" duration-ms="2648" status="PASS">
+        <test-method signature="tc_008_validateLoginBehavior(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:04:10 IST" name="tc_008_validateLoginBehavior" data-provider="loginData" finished-at="2025-12-17T12:04:12 IST" duration-ms="2683" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -221,15 +221,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- tc_008_validateLoginBehavior -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:46 IST" name="postcondition" finished-at="2025-12-17T02:48:46 IST" duration-ms="181" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:04:12 IST" name="postcondition" finished-at="2025-12-17T12:04:12 IST" duration-ms="173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:46 IST" name="precondition" finished-at="2025-12-17T02:48:51 IST" duration-ms="4934" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:04:12 IST" name="precondition" finished-at="2025-12-17T12:04:17 IST" duration-ms="4280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_008_validateLoginBehavior(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:51 IST" name="tc_008_validateLoginBehavior" data-provider="loginData" finished-at="2025-12-17T02:48:54 IST" duration-ms="2939" status="PASS">
+        <test-method signature="tc_008_validateLoginBehavior(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:04:17 IST" name="tc_008_validateLoginBehavior" data-provider="loginData" finished-at="2025-12-17T12:04:23 IST" duration-ms="6501" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -253,15 +253,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- tc_008_validateLoginBehavior -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:54 IST" name="postcondition" finished-at="2025-12-17T02:48:54 IST" duration-ms="174" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:04:23 IST" name="postcondition" finished-at="2025-12-17T12:04:23 IST" duration-ms="187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:54 IST" name="precondition" finished-at="2025-12-17T02:48:59 IST" duration-ms="4890" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:04:23 IST" name="precondition" finished-at="2025-12-17T12:04:28 IST" duration-ms="4714" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_008_validateLoginBehavior(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:48:59 IST" name="tc_008_validateLoginBehavior" data-provider="loginData" finished-at="2025-12-17T02:49:01 IST" duration-ms="2347" status="PASS">
+        <test-method signature="tc_008_validateLoginBehavior(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:04:28 IST" name="tc_008_validateLoginBehavior" data-provider="loginData" finished-at="2025-12-17T12:04:31 IST" duration-ms="2696" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -285,15 +285,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- tc_008_validateLoginBehavior -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:01 IST" name="postcondition" finished-at="2025-12-17T02:49:01 IST" duration-ms="176" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:04:31 IST" name="postcondition" finished-at="2025-12-17T12:04:31 IST" duration-ms="176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:01 IST" name="precondition" finished-at="2025-12-17T02:49:06 IST" duration-ms="4513" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:04:31 IST" name="precondition" finished-at="2025-12-17T12:04:36 IST" duration-ms="4771" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_008_validateLoginBehavior(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:06 IST" name="tc_008_validateLoginBehavior" data-provider="loginData" finished-at="2025-12-17T02:49:09 IST" duration-ms="2782" status="PASS">
+        <test-method signature="tc_008_validateLoginBehavior(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:04:36 IST" name="tc_008_validateLoginBehavior" data-provider="loginData" finished-at="2025-12-17T12:04:39 IST" duration-ms="3343" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -317,15 +317,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- tc_008_validateLoginBehavior -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:09 IST" name="postcondition" finished-at="2025-12-17T02:49:09 IST" duration-ms="176" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:04:39 IST" name="postcondition" finished-at="2025-12-17T12:04:39 IST" duration-ms="170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:09 IST" name="precondition" finished-at="2025-12-17T02:49:13 IST" duration-ms="4351" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:04:39 IST" name="precondition" finished-at="2025-12-17T12:04:44 IST" duration-ms="4598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_008_validateLoginBehavior(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:13 IST" name="tc_008_validateLoginBehavior" data-provider="loginData" finished-at="2025-12-17T02:49:15 IST" duration-ms="2097" status="PASS">
+        <test-method signature="tc_008_validateLoginBehavior(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:04:44 IST" name="tc_008_validateLoginBehavior" data-provider="loginData" finished-at="2025-12-17T12:04:46 IST" duration-ms="2237" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -349,15 +349,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- tc_008_validateLoginBehavior -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:15 IST" name="postcondition" finished-at="2025-12-17T02:49:15 IST" duration-ms="223" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:04:46 IST" name="postcondition" finished-at="2025-12-17T12:04:46 IST" duration-ms="184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:15 IST" name="precondition" finished-at="2025-12-17T02:49:20 IST" duration-ms="4586" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:04:46 IST" name="precondition" finished-at="2025-12-17T12:04:51 IST" duration-ms="4708" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_008_validateLoginBehavior(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:20 IST" name="tc_008_validateLoginBehavior" data-provider="loginData" finished-at="2025-12-17T02:49:23 IST" duration-ms="3030" status="PASS">
+        <test-method signature="tc_008_validateLoginBehavior(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:04:51 IST" name="tc_008_validateLoginBehavior" data-provider="loginData" finished-at="2025-12-17T12:04:54 IST" duration-ms="2660" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -381,15 +381,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- tc_008_validateLoginBehavior -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:23 IST" name="postcondition" finished-at="2025-12-17T02:49:23 IST" duration-ms="191" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:04:54 IST" name="postcondition" finished-at="2025-12-17T12:04:54 IST" duration-ms="187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:23 IST" name="precondition" finished-at="2025-12-17T02:49:30 IST" duration-ms="6597" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:04:54 IST" name="precondition" finished-at="2025-12-17T12:04:59 IST" duration-ms="4620" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_008_validateLoginBehavior(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:30 IST" name="tc_008_validateLoginBehavior" data-provider="loginData" finished-at="2025-12-17T02:49:33 IST" duration-ms="2812" status="PASS">
+        <test-method signature="tc_008_validateLoginBehavior(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:04:59 IST" name="tc_008_validateLoginBehavior" data-provider="loginData" finished-at="2025-12-17T12:05:05 IST" duration-ms="6909" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -413,15 +413,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- tc_008_validateLoginBehavior -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:33 IST" name="postcondition" finished-at="2025-12-17T02:49:33 IST" duration-ms="192" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:05:05 IST" name="postcondition" finished-at="2025-12-17T12:05:06 IST" duration-ms="187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:33 IST" name="precondition" finished-at="2025-12-17T02:49:37 IST" duration-ms="4416" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:05:06 IST" name="precondition" finished-at="2025-12-17T12:05:22 IST" duration-ms="15899" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_008_validateLoginBehavior(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:37 IST" name="tc_008_validateLoginBehavior" data-provider="loginData" finished-at="2025-12-17T02:49:41 IST" duration-ms="3431" status="PASS">
+        <test-method signature="tc_008_validateLoginBehavior(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:05:22 IST" name="tc_008_validateLoginBehavior" data-provider="loginData" finished-at="2025-12-17T12:05:26 IST" duration-ms="4915" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -445,15 +445,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- tc_008_validateLoginBehavior -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:41 IST" name="postcondition" finished-at="2025-12-17T02:49:41 IST" duration-ms="166" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:05:26 IST" name="postcondition" finished-at="2025-12-17T12:05:27 IST" duration-ms="753" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:41 IST" name="precondition" finished-at="2025-12-17T02:49:46 IST" duration-ms="4702" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:05:27 IST" name="precondition" finished-at="2025-12-17T12:05:32 IST" duration-ms="4279" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_009_verifyErrorMessageText(java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:46 IST" name="tc_009_verifyErrorMessageText" data-provider="loginData" finished-at="2025-12-17T02:49:46 IST" duration-ms="3" status="SKIP">
+        <test-method signature="tc_009_verifyErrorMessageText(java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:05:32 IST" name="tc_009_verifyErrorMessageText" data-provider="loginData" finished-at="2025-12-17T12:05:32 IST" duration-ms="3" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -513,15 +513,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </line>
           </reporter-output>
         </test-method> <!-- tc_009_verifyErrorMessageText -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:46 IST" name="postcondition" finished-at="2025-12-17T02:49:46 IST" duration-ms="178" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:05:32 IST" name="postcondition" finished-at="2025-12-17T12:05:32 IST" duration-ms="168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:46 IST" name="precondition" finished-at="2025-12-17T02:49:51 IST" duration-ms="4694" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:05:32 IST" name="precondition" finished-at="2025-12-17T12:05:37 IST" duration-ms="5061" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_009_verifyErrorMessageText(java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:51 IST" name="tc_009_verifyErrorMessageText" data-provider="loginData" finished-at="2025-12-17T02:49:53 IST" duration-ms="2841" status="PASS">
+        <test-method signature="tc_009_verifyErrorMessageText(java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:05:37 IST" name="tc_009_verifyErrorMessageText" data-provider="loginData" finished-at="2025-12-17T12:05:40 IST" duration-ms="2769" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -545,15 +545,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </line>
           </reporter-output>
         </test-method> <!-- tc_009_verifyErrorMessageText -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:53 IST" name="postcondition" finished-at="2025-12-17T02:49:54 IST" duration-ms="170" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:05:40 IST" name="postcondition" finished-at="2025-12-17T12:05:40 IST" duration-ms="167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:54 IST" name="precondition" finished-at="2025-12-17T02:49:58 IST" duration-ms="4299" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:05:40 IST" name="precondition" finished-at="2025-12-17T12:05:44 IST" duration-ms="4316" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_009_verifyErrorMessageText(java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:49:58 IST" name="tc_009_verifyErrorMessageText" data-provider="loginData" finished-at="2025-12-17T02:50:00 IST" duration-ms="2451" status="PASS">
+        <test-method signature="tc_009_verifyErrorMessageText(java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:05:44 IST" name="tc_009_verifyErrorMessageText" data-provider="loginData" finished-at="2025-12-17T12:05:47 IST" duration-ms="2832" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -577,15 +577,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </line>
           </reporter-output>
         </test-method> <!-- tc_009_verifyErrorMessageText -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:00 IST" name="postcondition" finished-at="2025-12-17T02:50:00 IST" duration-ms="180" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:05:47 IST" name="postcondition" finished-at="2025-12-17T12:05:47 IST" duration-ms="184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:00 IST" name="precondition" finished-at="2025-12-17T02:50:05 IST" duration-ms="4273" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:05:47 IST" name="precondition" finished-at="2025-12-17T12:05:51 IST" duration-ms="4280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_009_verifyErrorMessageText(java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:05 IST" name="tc_009_verifyErrorMessageText" data-provider="loginData" finished-at="2025-12-17T02:50:05 IST" duration-ms="1" status="SKIP">
+        <test-method signature="tc_009_verifyErrorMessageText(java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:05:51 IST" name="tc_009_verifyErrorMessageText" data-provider="loginData" finished-at="2025-12-17T12:05:51 IST" duration-ms="1" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -645,15 +645,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </line>
           </reporter-output>
         </test-method> <!-- tc_009_verifyErrorMessageText -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:05 IST" name="postcondition" finished-at="2025-12-17T02:50:05 IST" duration-ms="183" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:05:51 IST" name="postcondition" finished-at="2025-12-17T12:05:52 IST" duration-ms="177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:05 IST" name="precondition" finished-at="2025-12-17T02:50:10 IST" duration-ms="4669" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:05:52 IST" name="precondition" finished-at="2025-12-17T12:05:57 IST" duration-ms="4941" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_009_verifyErrorMessageText(java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:10 IST" name="tc_009_verifyErrorMessageText" data-provider="loginData" finished-at="2025-12-17T02:50:10 IST" duration-ms="2" status="SKIP">
+        <test-method signature="tc_009_verifyErrorMessageText(java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:05:57 IST" name="tc_009_verifyErrorMessageText" data-provider="loginData" finished-at="2025-12-17T12:05:57 IST" duration-ms="1" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -713,15 +713,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </line>
           </reporter-output>
         </test-method> <!-- tc_009_verifyErrorMessageText -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:10 IST" name="postcondition" finished-at="2025-12-17T02:50:10 IST" duration-ms="175" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:05:57 IST" name="postcondition" finished-at="2025-12-17T12:05:57 IST" duration-ms="180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:10 IST" name="precondition" finished-at="2025-12-17T02:50:14 IST" duration-ms="4298" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:05:57 IST" name="precondition" finished-at="2025-12-17T12:06:02 IST" duration-ms="4826" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_009_verifyErrorMessageText(java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:14 IST" name="tc_009_verifyErrorMessageText" data-provider="loginData" finished-at="2025-12-17T02:50:17 IST" duration-ms="2708" status="PASS">
+        <test-method signature="tc_009_verifyErrorMessageText(java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:06:02 IST" name="tc_009_verifyErrorMessageText" data-provider="loginData" finished-at="2025-12-17T12:06:04 IST" duration-ms="2820" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -745,15 +745,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </line>
           </reporter-output>
         </test-method> <!-- tc_009_verifyErrorMessageText -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:17 IST" name="postcondition" finished-at="2025-12-17T02:50:17 IST" duration-ms="205" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:06:04 IST" name="postcondition" finished-at="2025-12-17T12:06:05 IST" duration-ms="190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:17 IST" name="precondition" finished-at="2025-12-17T02:50:22 IST" duration-ms="4603" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:06:05 IST" name="precondition" finished-at="2025-12-17T12:06:09 IST" duration-ms="4542" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_009_verifyErrorMessageText(java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:22 IST" name="tc_009_verifyErrorMessageText" data-provider="loginData" finished-at="2025-12-17T02:50:25 IST" duration-ms="2977" status="PASS">
+        <test-method signature="tc_009_verifyErrorMessageText(java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:06:09 IST" name="tc_009_verifyErrorMessageText" data-provider="loginData" finished-at="2025-12-17T12:06:13 IST" duration-ms="3485" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -777,15 +777,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </line>
           </reporter-output>
         </test-method> <!-- tc_009_verifyErrorMessageText -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:25 IST" name="postcondition" finished-at="2025-12-17T02:50:25 IST" duration-ms="183" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:06:13 IST" name="postcondition" finished-at="2025-12-17T12:06:13 IST" duration-ms="188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:25 IST" name="precondition" finished-at="2025-12-17T02:50:30 IST" duration-ms="5381" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:06:13 IST" name="precondition" finished-at="2025-12-17T12:06:17 IST" duration-ms="4653" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_009_verifyErrorMessageText(java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:30 IST" name="tc_009_verifyErrorMessageText" data-provider="loginData" finished-at="2025-12-17T02:50:33 IST" duration-ms="2761" status="PASS">
+        <test-method signature="tc_009_verifyErrorMessageText(java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:06:17 IST" name="tc_009_verifyErrorMessageText" data-provider="loginData" finished-at="2025-12-17T12:06:20 IST" duration-ms="2532" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -809,52 +809,52 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </line>
           </reporter-output>
         </test-method> <!-- tc_009_verifyErrorMessageText -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:33 IST" name="postcondition" finished-at="2025-12-17T02:50:33 IST" duration-ms="187" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:06:20 IST" name="postcondition" finished-at="2025-12-17T12:06:20 IST" duration-ms="174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:33 IST" name="precondition" finished-at="2025-12-17T02:50:37 IST" duration-ms="4270" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:06:20 IST" name="precondition" finished-at="2025-12-17T12:06:24 IST" duration-ms="4384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_010_verifyErrorForEmptyCredentials()[pri:9, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:37 IST" name="tc_010_verifyErrorForEmptyCredentials" finished-at="2025-12-17T02:50:38 IST" duration-ms="766" status="PASS">
+        <test-method signature="tc_010_verifyErrorForEmptyCredentials()[pri:9, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:06:24 IST" name="tc_010_verifyErrorForEmptyCredentials" finished-at="2025-12-17T12:06:25 IST" duration-ms="988" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[tc_010_verifyErrorForEmptyCredentials is onTestStart]]>
             </line>
           </reporter-output>
         </test-method> <!-- tc_010_verifyErrorForEmptyCredentials -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:38 IST" name="postcondition" finished-at="2025-12-17T02:50:38 IST" duration-ms="190" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:06:25 IST" name="postcondition" finished-at="2025-12-17T12:06:26 IST" duration-ms="181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:38 IST" name="precondition" finished-at="2025-12-17T02:50:43 IST" duration-ms="4275" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:06:26 IST" name="precondition" finished-at="2025-12-17T12:06:31 IST" duration-ms="5085" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_011_verifySocialIconsDisplayed()[pri:10, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:43 IST" name="tc_011_verifySocialIconsDisplayed" finished-at="2025-12-17T02:50:43 IST" duration-ms="649" status="PASS">
+        <test-method signature="tc_011_verifySocialIconsDisplayed()[pri:10, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:06:31 IST" name="tc_011_verifySocialIconsDisplayed" finished-at="2025-12-17T12:06:31 IST" duration-ms="713" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[tc_011_verifySocialIconsDisplayed is onTestStart]]>
             </line>
           </reporter-output>
         </test-method> <!-- tc_011_verifySocialIconsDisplayed -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:43 IST" name="postcondition" finished-at="2025-12-17T02:50:43 IST" duration-ms="189" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:06:31 IST" name="postcondition" finished-at="2025-12-17T12:06:32 IST" duration-ms="186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:43 IST" name="precondition" finished-at="2025-12-17T02:50:48 IST" duration-ms="4491" status="PASS">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:06:32 IST" name="precondition" finished-at="2025-12-17T12:06:36 IST" duration-ms="4850" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_012_verifyFooterText()[pri:11, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:48 IST" name="tc_012_verifyFooterText" finished-at="2025-12-17T02:50:49 IST" duration-ms="877" status="PASS">
+        <test-method signature="tc_012_verifyFooterText()[pri:11, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:06:36 IST" name="tc_012_verifyFooterText" finished-at="2025-12-17T12:06:37 IST" duration-ms="864" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[tc_012_verifyFooterText is onTestStart]]>
             </line>
           </reporter-output>
         </test-method> <!-- tc_012_verifyFooterText -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T02:50:49 IST" name="postcondition" finished-at="2025-12-17T02:50:49 IST" duration-ms="183" status="PASS">
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.LoginTest@22555ebf]" started-at="2025-12-17T12:06:37 IST" name="postcondition" finished-at="2025-12-17T12:06:38 IST" duration-ms="172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->

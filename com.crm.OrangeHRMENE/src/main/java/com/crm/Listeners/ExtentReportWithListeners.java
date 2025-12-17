@@ -36,46 +36,46 @@ public class ExtentReportWithListeners extends LoginBase implements ITestListene
 
 	@Override
 	public void onTestFailure(ITestResult result) {
-//		String date = LocalDateTime.now().toString().replace(':', '-');
-//		String name = result.getMethod().getMethodName();
-//		String dynamicName = name+date;
-//		try {
-//			Thread.sleep(2000);
-//		} catch (InterruptedException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
-//		 TakesScreenshot ts = (TakesScreenshot) driver;
-//	      String from = ts.getScreenshotAs(OutputType.BASE64);
-//	      test.addScreenCaptureFromBase64String(from);
-//	      test.log(Status.FAIL, name+" is fail");
+		String date = LocalDateTime.now().toString().replace(':', '-');
+		String name = result.getMethod().getMethodName();
+		String dynamicName = name+date;
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		 TakesScreenshot ts = (TakesScreenshot) driver;
+	      String from = ts.getScreenshotAs(OutputType.BASE64);
+	      test.addScreenCaptureFromBase64String(from);
+	      test.log(Status.FAIL, name+" is fail");
 	
-		    test.log(Status.FAIL, result.getMethod().getMethodName() + " FAILED");
-		    test.log(Status.FAIL, result.getThrowable());
-		    WebDriver localDriver = null;
-		    try {
-		        Object testClass = result.getInstance();
-		        localDriver = (WebDriver) testClass
-		                .getClass()
-		                .getSuperclass()
-		                .getDeclaredField("driver")
-		                .get(testClass);
-		    } catch (Exception e) {
-		        test.log(Status.WARNING, "Unable to fetch driver");
-		        return;
-		    }
-		    if (localDriver == null) {
-		        test.log(Status.WARNING, "Driver is null, screenshot skipped");
-		        return;
-		    }
-		    try {
-		        localDriver.getTitle(); 
-		        TakesScreenshot ts = (TakesScreenshot) localDriver;
-		        String base64 = ts.getScreenshotAs(OutputType.BASE64);
-		        test.addScreenCaptureFromBase64String(base64);
-		    } catch (Exception e) {
-		        test.log(Status.WARNING, "Session closed, screenshot skipped");
-		 }
+//		    test.log(Status.FAIL, result.getMethod().getMethodName() + " FAILED");
+//		    test.log(Status.FAIL, result.getThrowable());
+//		    WebDriver localDriver = null;
+//		    try {
+//		        Object testClass = result.getInstance();
+//		        localDriver = (WebDriver) testClass
+//		                .getClass()
+//		                .getSuperclass()
+//		                .getDeclaredField("driver")
+//		                .get(testClass);
+//		    } catch (Exception e) {
+//		        test.log(Status.WARNING, "Unable to fetch driver");
+//		        return;
+//		    }
+//		    if (localDriver == null) {
+//		        test.log(Status.WARNING, "Driver is null, screenshot skipped");
+//		        return;
+//		    }
+//		    try {
+//		        localDriver.getTitle(); 
+//		        TakesScreenshot ts = (TakesScreenshot) localDriver;
+//		        String base64 = ts.getScreenshotAs(OutputType.BASE64);
+//		        test.addScreenCaptureFromBase64String(base64);
+//		    } catch (Exception e) {
+//		        test.log(Status.WARNING, "Session closed, screenshot skipped");
+//		 }
 	}
 	
 	@Override
@@ -87,7 +87,7 @@ public class ExtentReportWithListeners extends LoginBase implements ITestListene
 	@Override
 	public void onStart(ITestContext context) {
 		Reporter.log("onStart",true);
-		spark = new ExtentSparkReporter(".\\src\\test\\resources\\Reports\\LoginReport.html");
+		spark = new ExtentSparkReporter(".\\src\\test\\resources\\Reports\\OrangeHRMReport.html");
 		spark.config().setDocumentTitle("OrangeHRM");
 		spark.config().setReportName("Roshan");
 		spark.config().setTheme(Theme.DARK);
